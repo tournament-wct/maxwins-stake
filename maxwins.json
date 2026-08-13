@@ -1,5 +1,14 @@
 {
-  "misAJour": "2026-08-13T10:02:49.308765500+00:00",
-  "compte": 0,
-  "maxwins": []
+  "misAJour": "2026-08-13T11:59:48.898751800+00:00",
+  "compte": 1,
+  "maxwins": [
+    {
+      "jeu": "Wanted",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-08-13T11:59:31Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28639897137"
+    }
+  ]
 }
