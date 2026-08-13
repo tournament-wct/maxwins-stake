@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Max wins Hacksaw — replays</title>
+<meta name="description" content="Les max wins Hacksaw repérés sur Stake, avec leur replay.">
+<meta name="color-scheme" content="dark">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🏆</text></svg>">
+<style>
+  /*
+    Une seule page, aucune dépendance, aucun script tiers. Le fichier est servi
+    tel quel par Vercel et va chercher ses données sur GitHub — rien d'autre à
+    déployer, et pas de reconstruction à chaque nouvelle prise.
+  */
+  :root {
+    --fond: #12161a;
+    --carte: #171c20;
+    --bord: #232a2e;
+    --texte: #e6e1d6;
+    --doux: #6a7478;
+    --accent: #f2a93b;
+    --vert: #63c08b;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fond);
+    color: var(--texte);
+    font: 15px/1.55 "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif;
+    padding: 2.5rem 1.25rem 4rem;
+  }
+  .page { max-width: 62rem; margin: 0 auto; }
+
+  h1 {
+    font: 600 clamp(1.6rem, 5vw, 2.3rem)/1.1 "Barlow Condensed", system-ui, sans-serif;
+    letter-spacing: .04em;
+    text-transform: uppercase;
+    margin: 0 0 .4rem;
+  }
+  .sous { color: var(--doux); margin: 0 0 1.6rem; max-width: 42rem; }
+  .sous strong { color: var(--texte); font-weight: 600; }
+
+  .barre {
+    display: flex; flex-wrap: wrap; gap: .75rem; align-items: baseline;
+    margin-bottom: 1.25rem; color: var(--doux); font-size: 13px;
+  }
+  .compte { color: var(--accent); font-weight: 600; font-size: 15px; }
+
+  .liste { display: grid; gap: .6rem; }
+
+  .prise {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: .35rem 1rem;
+    align-items: center;
+    background: var(--carte);
+    border: 1px solid var(--bord);
+    border-radius: 10px;
+    padding: .85rem 1rem;
+  }
+  .jeu { font-weight: 600; }
+  .details { color: var(--doux); font-size: 13px; grid-column: 1; }
+  .mult { color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 600; }
+  .achat { color: var(--doux); }
+
+  .actions { grid-row: 1 / span 2; display: flex; gap: .4rem; }
+  button, .lien {
+    font: inherit; font-size: 13px;
+    background: #1d2429; color: var(--texte);
+    border: 1px solid var(--bord); border-radius: 7px;
+    padding: .45rem .8rem; cursor: pointer; text-decoration: none;
+    white-space: nowrap;
+  }
+  button:hover, .lien:hover { border-color: var(--accent); color: var(--accent); }
+  button:focus-visible, .lien:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  button.fait { color: var(--vert); border-color: var(--vert); }
+
+  .etat { color: var(--doux); padding: 2rem 0; }
+  .erreur { color: #e2705f; }
+  footer { margin-top: 2.5rem; color: var(--doux); font-size: 12px; }
+  footer a { color: var(--doux); }
+
+  @media (max-width: 32rem) {
+    .prise { grid-template-columns: 1fr; }
+    .actions { grid-row: auto; }
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    .prise { transition: border-color .15s; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <h1>Max wins Hacksaw</h1>
+  <p class="sous">
+    Les parties qui ont touché le <strong>plafond de gain</strong> de leur machine,
+    repérées en direct sur Stake et confirmées auprès de Hacksaw. Seules figurent ici
+    celles qui remplissent les conditions du <strong>Max Win Club</strong> : machine au
+    formulaire, et mise de base d'au moins 0,25 EUR.
+  </p>
+
+  <div class="barre">
+    <span class="compte" id="compte">…</span>
+    <span id="maj"></span>
+  </div>
+
+  <div class="liste" id="liste"></div>
+  <p class="etat" id="etat">Chargement…</p>
+
+  <footer>
+    Alimenté automatiquement par All in One.
+    <a id="source" href="#" target="_blank" rel="noopener">source des données</a>
+  </footer>
+</div>
+
+<script>
+// Le JSON est publié sur le dépôt par All in One, à côté de cette page.
+//
+// En relatif d'abord : servie par GitHub Pages, la page et les données
+// partagent la même origine — ni CORS, ni cache intermédiaire. Le repli sur
+// l'adresse brute couvre le cas où l'on ouvre ce fichier depuis le disque.
+const SOURCES = [
+  "maxwins.json",
+  "https://raw.githubusercontent.com/tournament-wct/maxwins-stake/main/maxwins.json",
+];
+
+const fr = new Intl.NumberFormat("fr-FR");
+
+/** « 12 500× » — les décimales n'apprennent rien au-delà du millier. */
+function mult(v) {
+  return (v >= 1000 ? fr.format(Math.round(v)) : v.toFixed(2)) + "×";
+}
+
+/** « il y a 3 h » — plus parlant qu'une date pour une liste qui bouge. */
+function depuis(iso) {
+  const t = new Date(iso).getTime();
+  if (Number.isNaN(t)) return "";
+  const s = Math.max(0, (Date.now() - t) / 1000);
+  if (s < 3600) return "il y a " + Math.floor(s / 60) + " min";
+  if (s < 86400) return "il y a " + Math.floor(s / 3600) + " h";
+  const j = Math.floor(s / 86400);
+  return "il y a " + j + " jour" + (j > 1 ? "s" : "");
+}
+
+function ligne(m) {
+  const el = document.createElement("article");
+  el.className = "prise";
+
+  const jeu = document.createElement("div");
+  jeu.className = "jeu";
+  jeu.textContent = m.jeu;
+
+  const details = document.createElement("div");
+  details.className = "details";
+  const partie = m.achat > 1 ? "achat de bonus ×" + Math.round(m.achat) : "spin de base";
+  details.innerHTML =
+    '<span class="mult">' + mult(m.multiplicateur) + "</span> · " +
+    '<span class="achat">' + partie + " · " + depuis(m.date) + "</span>";
+
+  const actions = document.createElement("div");
+  actions.className = "actions";
+
+  const copier = document.createElement("button");
+  copier.type = "button";
+  copier.textContent = "Copier";
+  copier.addEventListener("click", async () => {
+    try {
+      await navigator.clipboard.writeText(m.replay);
+      copier.textContent = "Copié";
+      copier.classList.add("fait");
+    } catch {
+      // Presse-papier refusé — hors HTTPS, ou permission bloquée. On ne laisse
+      // pas l'utilisateur sans recours : le lien reste sélectionnable.
+      copier.textContent = "Ctrl+C";
+      window.prompt("Copie le lien :", m.replay);
+    }
+    setTimeout(() => {
+      copier.textContent = "Copier";
+      copier.classList.remove("fait");
+    }, 2000);
+  });
+
+  const ouvrir = document.createElement("a");
+  ouvrir.className = "lien";
+  ouvrir.href = m.replay;
+  ouvrir.target = "_blank";
+  ouvrir.rel = "noopener";
+  ouvrir.textContent = "Voir";
+
+  actions.append(copier, ouvrir);
+  el.append(jeu, details, actions);
+  return el;
+}
+
+/** Essaie chaque source dans l'ordre ; rend la première qui répond. */
+async function lireDonnees() {
+  let derniere = null;
+  for (const url of SOURCES) {
+    try {
+      // `no-store` : sans ça, le navigateur ressert sa copie et la page paraît
+      // figée alors que de nouvelles prises sont publiées.
+      const r = await fetch(url, { cache: "no-store" });
+      if (r.ok) return { donnees: await r.json(), url };
+      // 404 sur la source principale = fichier pas encore publié, pas une
+      // panne. On le distingue pour ne pas afficher une erreur alarmante.
+      if (r.status === 404) derniere = { vide: true, url };
+      else derniere = { erreur: "HTTP " + r.status, url };
+    } catch (e) {
+      derniere = { erreur: e.message, url };
+    }
+  }
+  return derniere ?? { erreur: "aucune source" };
+}
+
+async function charger() {
+  const etat = document.getElementById("etat");
+  const liste = document.getElementById("liste");
+
+  // La page se rafraîchit toutes les deux minutes : sans ce vidage, les prises
+  // s'empileraient en double à chaque passage.
+  liste.replaceChildren();
+  etat.className = "etat";
+  etat.hidden = false;
+
+  const res = await lireDonnees();
+  document.getElementById("source").href = res.url ?? SOURCES[0];
+
+  if (res.vide) {
+    etat.textContent = "Aucune prise publiée pour l'instant.";
+    document.getElementById("compte").textContent = "0 max win";
+    return;
+  }
+  if (res.erreur) {
+    etat.className = "etat erreur";
+    etat.textContent = "Données indisponibles (" + res.erreur + ").";
+    return;
+  }
+
+  try {
+    const d = res.donnees;
+    const prises = d.maxwins || [];
+
+    document.getElementById("compte").textContent =
+      prises.length + " max win" + (prises.length > 1 ? "s" : "");
+    document.getElementById("maj").textContent = d.misAJour
+      ? "· mis à jour " + depuis(d.misAJour)
+      : "";
+
+    if (!prises.length) {
+      etat.textContent = "Aucune prise réclamable pour l'instant.";
+      return;
+    }
+    // Masqué plutôt que retiré : le prochain rafraîchissement en a encore
+    // besoin pour annoncer une éventuelle panne.
+    etat.hidden = true;
+    for (const m of prises) liste.append(ligne(m));
+  } catch (e) {
+    // Le réseau est déjà traité plus haut ; ici c'est un JSON malformé.
+    etat.className = "etat erreur";
+    etat.textContent = "Données illisibles (" + e.message + ").";
+  }
+}
+
+charger();
+// La page reste souvent ouverte : on relit sans forcer un rechargement manuel.
+setInterval(charger, 120000);
+</script>
+</body>
+</html>
