@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-14T19:52:56.913072600+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-14T22:48:46.938202600+00:00",
+  "compte": 4,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-08-14T22:48:27Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28668547561"
+    },
     {
       "jeu": "Spinman",
       "multiplicateur": 10000.0,
