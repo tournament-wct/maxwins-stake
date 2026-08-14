@@ -4,122 +4,290 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Max wins Hacksaw — replays</title>
-<meta name="description" content="Les max wins Hacksaw repérés sur Stake, avec leur replay.">
+<meta name="description" content="Les max wins Hacksaw sur Stake. Replays vérifiés, prêts à soumettre au Max Win Club.">
 <meta name="color-scheme" content="dark">
+<meta property="og:title" content="Max wins Hacksaw">
+<meta property="og:description" content="Que des max wins. Replays verifies.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><text y='13' font-size='13'>🏆</text></svg>">
 <style>
   /*
-    Une seule page, aucune dépendance, aucun script tiers. Le fichier est servi
-    tel quel par Vercel et va chercher ses données sur GitHub — rien d'autre à
-    déployer, et pas de reconstruction à chaque nouvelle prise.
+    Une page, aucune dépendance, aucune requête tierce. Servie telle quelle par
+    GitHub Pages, elle lit ses données à côté d'elle.
+
+    Direction : un relevé de paiement, pas un tableau de bord. Le sujet est un
+    plafond de gain atteint — donc le multiplicateur est la pièce maîtresse, et
+    la jauge sous chaque ligne donne la hauteur du plafond de la machine. Un
+    30 000x écrase visuellement un 10 000x, ce qu'une simple liste de nombres
+    ne dit pas.
+
+    Palette encre-prune plutôt que le gris-noir habituel : le fond est
+    légèrement chaud, l'or porte les nombres, et un seul froid — le cyan —
+    signale ce qui se clique. La tension entre les deux tient la page même
+    quand il n'y a qu'une seule prise.
   */
   :root {
-    --fond: #12161a;
-    --carte: #171c20;
-    --bord: #232a2e;
-    --texte: #e6e1d6;
-    --doux: #6a7478;
-    --accent: #f2a93b;
-    --vert: #63c08b;
+    --encre: #16101a;
+    --encre-haut: #1e1622;
+    --relief: #2b2032;
+    --os: #f2ebe3;
+    --os-terne: #9d93a3;
+    --os-faible: #6b6273;
+    --or: #f0b445;
+    --or-faible: rgba(240, 180, 69, .16);
+    --froid: #5fd4dd;
+    --pas: clamp(1rem, 3vw, 1.6rem);
   }
+
   * { box-sizing: border-box; }
+
   body {
     margin: 0;
-    background: var(--fond);
-    color: var(--texte);
-    font: 15px/1.55 "IBM Plex Sans", system-ui, -apple-system, Segoe UI, sans-serif;
-    padding: 2.5rem 1.25rem 4rem;
+    padding: 0 var(--pas) 5rem;
+    background:
+      /* Deux halos très diffus : la page respire au lieu d'être un aplat. */
+      radial-gradient(80rem 40rem at 12% -8%, rgba(240,180,69,.07), transparent 60%),
+      radial-gradient(60rem 34rem at 92% 4%, rgba(95,212,221,.05), transparent 62%),
+      var(--encre);
+    color: var(--os);
+    font: 15px/1.6 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    min-height: 100vh;
   }
-  .page { max-width: 62rem; margin: 0 auto; }
+
+  .page { max-width: 66rem; margin: 0 auto; }
+
+  /* ── Titre ─────────────────────────────────────────────────────────────── */
+
+  header { padding: clamp(2.5rem, 8vw, 4.5rem) 0 clamp(1.5rem, 4vw, 2.5rem); }
+
+  .surtitre {
+    font: 600 12px/1 ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    letter-spacing: .28em;
+    text-transform: uppercase;
+    color: var(--or);
+    margin: 0 0 1rem;
+  }
 
   h1 {
-    font: 600 clamp(1.6rem, 5vw, 2.3rem)/1.1 "Barlow Condensed", system-ui, sans-serif;
-    letter-spacing: .04em;
+    font-size: clamp(2.6rem, 9vw, 5rem);
+    line-height: .92;
+    font-weight: 800;
+    letter-spacing: -.03em;
+    margin: 0 0 1rem;
+    /* Une largeur condensée là où la police la propose : le titre gagne en
+       présence sans changer de famille. */
+    font-stretch: 90%;
+  }
+  h1 em { font-style: normal; color: var(--or); }
+
+  .intro {
+    color: var(--os-terne);
+    max-width: 44rem;
+    margin: 0;
+    font-size: clamp(.95rem, 2.4vw, 1.05rem);
+  }
+  .intro strong { color: var(--os); font-weight: 600; }
+
+  /* ── Bandeau de chiffres ───────────────────────────────────────────────── */
+
+  .chiffres {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(9rem, 1fr));
+    gap: 1px;
+    margin: clamp(1.8rem, 5vw, 2.8rem) 0 0;
+    background: var(--relief);
+    border: 1px solid var(--relief);
+    border-radius: 14px;
+    overflow: hidden;
+  }
+  .chiffre { background: var(--encre-haut); padding: 1rem 1.15rem; }
+  .chiffre dt {
+    font: 600 10.5px/1 ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: .18em;
     text-transform: uppercase;
-    margin: 0 0 .4rem;
+    color: var(--os-faible);
+    margin: 0 0 .5rem;
   }
-  .sous { color: var(--doux); margin: 0 0 1.6rem; max-width: 42rem; }
-  .sous strong { color: var(--texte); font-weight: 600; }
-
-  .barre {
-    display: flex; flex-wrap: wrap; gap: .75rem; align-items: baseline;
-    margin-bottom: 1.25rem; color: var(--doux); font-size: 13px;
+  .chiffre dd {
+    margin: 0;
+    font-size: 1.65rem;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -.02em;
   }
-  .compte { color: var(--accent); font-weight: 600; font-size: 15px; }
+  .chiffre[data-fort] dd { color: var(--or); }
 
-  .liste { display: grid; gap: .6rem; }
+  /* ── Les prises ────────────────────────────────────────────────────────── */
+
+  .liste { display: grid; gap: .8rem; margin-top: clamp(1.8rem, 5vw, 2.6rem); }
 
   .prise {
+    position: relative;
     display: grid;
     grid-template-columns: 1fr auto;
-    gap: .35rem 1rem;
     align-items: center;
-    background: var(--carte);
-    border: 1px solid var(--bord);
-    border-radius: 10px;
-    padding: .85rem 1rem;
+    gap: .4rem 1.5rem;
+    background: linear-gradient(180deg, var(--encre-haut), #1a1220);
+    border: 1px solid var(--relief);
+    border-radius: 14px;
+    padding: 1.15rem 1.3rem 1.5rem;
+    overflow: hidden;
   }
-  .jeu { font-weight: 600; }
-  .details { color: var(--doux); font-size: 13px; grid-column: 1; }
-  .mult { color: var(--accent); font-variant-numeric: tabular-nums; font-weight: 600; }
-  .achat { color: var(--doux); }
 
-  .actions { grid-row: 1 / span 2; display: flex; gap: .4rem; }
-  button, .lien {
-    font: inherit; font-size: 13px;
-    background: #1d2429; color: var(--texte);
-    border: 1px solid var(--bord); border-radius: 7px;
-    padding: .45rem .8rem; cursor: pointer; text-decoration: none;
+  /* La jauge du plafond, posée au ras du bas de la carte. Sa longueur suit le
+     plafond de la machine, rapporté au plus haut de la liste : elle classe les
+     prises d'un coup d'œil, ce qu'un nombre seul ne fait pas. */
+  .jauge {
+    position: absolute;
+    left: 0; right: 0; bottom: 0;
+    height: 3px;
+    background: var(--relief);
+  }
+  .jauge span {
+    display: block;
+    height: 100%;
+    background: linear-gradient(90deg, var(--or-faible), var(--or));
+  }
+
+  .titre-ligne { grid-column: 1; min-width: 0; }
+
+  .jeu {
+    font-size: 1.05rem;
+    font-weight: 650;
+    letter-spacing: -.01em;
+    margin: 0 0 .3rem;
+    /* Un nom long ne doit pas pousser les boutons hors de la carte. */
+    overflow-wrap: anywhere;
+  }
+
+  .mult {
+    font-size: clamp(1.9rem, 6vw, 2.6rem);
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: -.035em;
+    color: var(--or);
+    font-variant-numeric: tabular-nums;
+    display: block;
+    margin: .1rem 0 .45rem;
+  }
+  .mult small {
+    font-size: .42em;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: var(--os-faible);
+    margin-left: .35em;
+  }
+
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .45rem .6rem;
+    align-items: center;
+    font-size: 12.5px;
+    color: var(--os-terne);
+  }
+
+  .etiquette {
+    font: 600 10.5px/1 ui-monospace, Menlo, Consolas, monospace;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    padding: .34em .6em;
+    border-radius: 999px;
+    border: 1px solid var(--relief);
+    color: var(--os-terne);
     white-space: nowrap;
   }
-  button:hover, .lien:hover { border-color: var(--accent); color: var(--accent); }
-  button:focus-visible, .lien:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-  button.fait { color: var(--vert); border-color: var(--vert); }
+  .etiquette[data-type="achat"] { color: var(--or); border-color: var(--or-faible); }
 
-  .etat { color: var(--doux); padding: 2rem 0; }
-  .erreur { color: #e2705f; }
-  footer { margin-top: 2.5rem; color: var(--doux); font-size: 12px; }
-  footer a { color: var(--doux); }
+  .actions { grid-column: 2; grid-row: 1; display: flex; gap: .45rem; }
 
-  @media (max-width: 32rem) {
-    .prise { grid-template-columns: 1fr; }
-    .actions { grid-row: auto; }
+  button, .lien {
+    font: 600 12.5px/1 inherit;
+    letter-spacing: .02em;
+    background: transparent;
+    color: var(--os);
+    border: 1px solid var(--relief);
+    border-radius: 9px;
+    padding: .6rem .95rem;
+    cursor: pointer;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: border-color .15s, color .15s, background .15s;
   }
-  @media (prefers-reduced-motion: no-preference) {
-    .prise { transition: border-color .15s; }
+  button:hover, .lien:hover { border-color: var(--froid); color: var(--froid); }
+  .lien { background: var(--froid); color: #10202a; border-color: var(--froid); }
+  .lien:hover { background: #7ce0e8; border-color: #7ce0e8; color: #10202a; }
+  :focus-visible { outline: 2px solid var(--froid); outline-offset: 2px; }
+  button.fait { color: var(--or); border-color: var(--or); }
+
+  /* ── États ─────────────────────────────────────────────────────────────── */
+
+  .etat {
+    border: 1px dashed var(--relief);
+    border-radius: 14px;
+    padding: clamp(2rem, 7vw, 3.5rem) 1.5rem;
+    text-align: center;
+    color: var(--os-terne);
+    margin-top: 1.5rem;
+  }
+  .etat p { margin: 0 auto; max-width: 34rem; }
+  .etat .gros { font-size: 1.15rem; color: var(--os); margin-bottom: .5rem; }
+  .etat[data-tone="erreur"] { border-color: #7a3a3a; color: #e2938a; }
+
+  footer {
+    margin-top: 3.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--relief);
+    color: var(--os-faible);
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .4rem 1rem;
+  }
+  footer a { color: var(--os-faible); }
+
+  @media (max-width: 34rem) {
+    .prise { grid-template-columns: 1fr; }
+    .actions { grid-column: 1; grid-row: auto; margin-top: .6rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
   }
 </style>
 </head>
 <body>
 <div class="page">
-  <h1>Max wins Hacksaw</h1>
-  <p class="sous">
-    Les parties qui ont touché le <strong>plafond de gain</strong> de leur machine,
-    repérées en direct sur Stake et confirmées auprès de Hacksaw. Seules figurent ici
-    celles qui remplissent les conditions du <strong>Max Win Club</strong> : machine au
-    formulaire, et mise de base d'au moins 0,25 EUR.
-  </p>
+  <header>
+    <p class="surtitre">Hacksaw · Stake</p>
+    <h1>Que des <em>max wins</em>.</h1>
+    <p class="intro">
+      Les parties qui ont tapé le max win sur une Hacksaw, ramassées en direct
+      sur Stake. Chaque replay est vérifié chez Hacksaw. Il n'y a ici que ce qui
+      passe le <strong>Max Win Club</strong> : machine dans la liste, base bet à
+      0,25 € minimum.
+    </p>
 
-  <div class="barre">
-    <span class="compte" id="compte">…</span>
-    <span id="maj"></span>
-  </div>
+    <dl class="chiffres" id="chiffres" hidden>
+      <div class="chiffre" data-fort><dt>Replays</dt><dd id="c-total">—</dd></div>
+      <div class="chiffre"><dt>Le plus gros</dt><dd id="c-gros">—</dd></div>
+      <div class="chiffre"><dt>Machines</dt><dd id="c-jeux">—</dd></div>
+      <div class="chiffre"><dt>Le dernier</dt><dd id="c-recent">—</dd></div>
+    </dl>
+  </header>
 
-  <div class="liste" id="liste"></div>
-  <p class="etat" id="etat">Chargement…</p>
+  <main class="liste" id="liste"></main>
+  <div class="etat" id="etat"><p>Chargement…</p></div>
 
   <footer>
-    Alimenté automatiquement par All in One.
+    <span>Mis à jour tout seul, en direct de Stake.</span>
     <a id="source" href="#" target="_blank" rel="noopener">source des données</a>
+    <span id="maj"></span>
   </footer>
 </div>
 
 <script>
-// Le JSON est publié sur le dépôt par All in One, à côté de cette page.
-//
-// En relatif d'abord : servie par GitHub Pages, la page et les données
-// partagent la même origine — ni CORS, ni cache intermédiaire. Le repli sur
-// l'adresse brute couvre le cas où l'on ouvre ce fichier depuis le disque.
+// Le JSON est publié à côté de cette page par All in One. En relatif d'abord :
+// servie par GitHub Pages, la page et les données partagent la même origine.
+// Le repli sur l'adresse brute couvre l'ouverture depuis le disque.
 const SOURCES = [
   "maxwins.json",
   "https://raw.githubusercontent.com/tournament-wct/maxwins-stake/main/maxwins.json",
@@ -127,12 +295,11 @@ const SOURCES = [
 
 const fr = new Intl.NumberFormat("fr-FR");
 
-/** « 12 500× » — les décimales n'apprennent rien au-delà du millier. */
+/** « 12 500 » — les décimales n'apprennent rien au-delà du millier. */
 function mult(v) {
-  return (v >= 1000 ? fr.format(Math.round(v)) : v.toFixed(2)) + "×";
+  return v >= 1000 ? fr.format(Math.round(v)) : v.toFixed(2);
 }
 
-/** « il y a 3 h » — plus parlant qu'une date pour une liste qui bouge. */
 function depuis(iso) {
   const t = new Date(iso).getTime();
   if (Number.isNaN(t)) return "";
@@ -143,20 +310,47 @@ function depuis(iso) {
   return "il y a " + j + " jour" + (j > 1 ? "s" : "");
 }
 
-function ligne(m) {
+function ligne(m, plafondMax) {
   const el = document.createElement("article");
   el.className = "prise";
 
-  const jeu = document.createElement("div");
+  const titre = document.createElement("div");
+  titre.className = "titre-ligne";
+
+  const jeu = document.createElement("h2");
   jeu.className = "jeu";
   jeu.textContent = m.jeu;
 
-  const details = document.createElement("div");
-  details.className = "details";
-  const partie = m.achat > 1 ? "achat de bonus ×" + Math.round(m.achat) : "spin de base";
-  details.innerHTML =
-    '<span class="mult">' + mult(m.multiplicateur) + "</span> · " +
-    '<span class="achat">' + partie + " · " + depuis(m.date) + "</span>";
+  const val = document.createElement("span");
+  val.className = "mult";
+  // « x » et non « × » : c'est comme ça que ça s'écrit dans le milieu.
+  val.textContent = mult(m.multiplicateur) + "x";
+  const unite = document.createElement("small");
+  // Le chiffre affiché par Stake est divisé par le coût du buy : préciser sur
+  // quoi porte celui-ci évite la confusion la plus courante.
+  unite.textContent = "en base bet";
+  val.append(unite);
+
+  const meta = document.createElement("div");
+  meta.className = "meta";
+
+  const type = document.createElement("span");
+  type.className = "etiquette";
+  if (m.achat > 1) {
+    type.dataset.type = "achat";
+    type.textContent = "bonus buy x" + Math.round(m.achat);
+  } else {
+    type.textContent = "base game";
+  }
+
+  const plafond = document.createElement("span");
+  plafond.textContent = "max win " + mult(m.plafond) + "x";
+
+  const quand = document.createElement("span");
+  quand.textContent = depuis(m.date);
+
+  meta.append(type, plafond, quand);
+  titre.append(jeu, val, meta);
 
   const actions = document.createElement("div");
   actions.className = "actions";
@@ -170,9 +364,8 @@ function ligne(m) {
       copier.textContent = "Copié";
       copier.classList.add("fait");
     } catch {
-      // Presse-papier refusé — hors HTTPS, ou permission bloquée. On ne laisse
-      // pas l'utilisateur sans recours : le lien reste sélectionnable.
-      copier.textContent = "Ctrl+C";
+      // Presse-papier refusé — hors HTTPS ou permission bloquée. On ne laisse
+      // pas sans recours : le lien reste sélectionnable dans l'invite.
       window.prompt("Copie le lien :", m.replay);
     }
     setTimeout(() => {
@@ -186,26 +379,31 @@ function ligne(m) {
   ouvrir.href = m.replay;
   ouvrir.target = "_blank";
   ouvrir.rel = "noopener";
-  ouvrir.textContent = "Voir";
+  ouvrir.textContent = "Voir le replay";
 
   actions.append(copier, ouvrir);
-  el.append(jeu, details, actions);
+
+  const jauge = document.createElement("div");
+  jauge.className = "jauge";
+  const rempli = document.createElement("span");
+  // Rapportée au plus haut plafond de la liste, jamais sous 8 % pour rester
+  // visible sur les petites machines.
+  rempli.style.width = Math.max(8, (m.plafond / plafondMax) * 100) + "%";
+  jauge.append(rempli);
+
+  el.append(titre, actions, jauge);
   return el;
 }
 
-/** Essaie chaque source dans l'ordre ; rend la première qui répond. */
 async function lireDonnees() {
   let derniere = null;
   for (const url of SOURCES) {
     try {
-      // `no-store` : sans ça, le navigateur ressert sa copie et la page paraît
-      // figée alors que de nouvelles prises sont publiées.
       const r = await fetch(url, { cache: "no-store" });
       if (r.ok) return { donnees: await r.json(), url };
-      // 404 sur la source principale = fichier pas encore publié, pas une
-      // panne. On le distingue pour ne pas afficher une erreur alarmante.
-      if (r.status === 404) derniere = { vide: true, url };
-      else derniere = { erreur: "HTTP " + r.status, url };
+      // 404 = fichier pas encore publié, pas une panne. On distingue pour ne
+      // pas afficher une erreur alarmante là où il n'y a rien à réparer.
+      derniere = r.status === 404 ? { vide: true, url } : { erreur: "HTTP " + r.status, url };
     } catch (e) {
       derniere = { erreur: e.message, url };
     }
@@ -213,57 +411,60 @@ async function lireDonnees() {
   return derniere ?? { erreur: "aucune source" };
 }
 
-async function charger() {
-  const etat = document.getElementById("etat");
-  const liste = document.getElementById("liste");
+function etat(html, tone) {
+  const e = document.getElementById("etat");
+  e.hidden = false;
+  e.dataset.tone = tone ?? "";
+  e.innerHTML = html;
+}
 
-  // La page se rafraîchit toutes les deux minutes : sans ce vidage, les prises
-  // s'empileraient en double à chaque passage.
+async function charger() {
+  const liste = document.getElementById("liste");
   liste.replaceChildren();
-  etat.className = "etat";
-  etat.hidden = false;
 
   const res = await lireDonnees();
   document.getElementById("source").href = res.url ?? SOURCES[0];
 
   if (res.vide) {
-    etat.textContent = "Aucune prise publiée pour l'instant.";
-    document.getElementById("compte").textContent = "0 max win";
+    document.getElementById("chiffres").hidden = true;
+    etat('<p class="gros">Rien pour le moment.</p><p>Un max win, ça tombe pas tous les jours. Dès qu\'une machine lâche le sien, il arrive ici.</p>');
     return;
   }
   if (res.erreur) {
-    etat.className = "etat erreur";
-    etat.textContent = "Données indisponibles (" + res.erreur + ").";
+    document.getElementById("chiffres").hidden = true;
+    etat("<p>Données indisponibles (" + res.erreur + ").</p>", "erreur");
     return;
   }
 
-  try {
-    const d = res.donnees;
-    const prises = d.maxwins || [];
+  const d = res.donnees;
+  const prises = d.maxwins || [];
+  document.getElementById("maj").textContent = d.misAJour ? "· mis à jour " + depuis(d.misAJour) : "";
 
-    document.getElementById("compte").textContent =
-      prises.length + " max win" + (prises.length > 1 ? "s" : "");
-    document.getElementById("maj").textContent = d.misAJour
-      ? "· mis à jour " + depuis(d.misAJour)
-      : "";
-
-    if (!prises.length) {
-      etat.textContent = "Aucune prise réclamable pour l'instant.";
-      return;
-    }
-    // Masqué plutôt que retiré : le prochain rafraîchissement en a encore
-    // besoin pour annoncer une éventuelle panne.
-    etat.hidden = true;
-    for (const m of prises) liste.append(ligne(m));
-  } catch (e) {
-    // Le réseau est déjà traité plus haut ; ici c'est un JSON malformé.
-    etat.className = "etat erreur";
-    etat.textContent = "Données illisibles (" + e.message + ").";
+  if (!prises.length) {
+    document.getElementById("chiffres").hidden = true;
+    etat('<p class="gros">Rien de soumettable pour le moment.</p><p>Ça tourne en continu — la page se remplit toute seule.</p>');
+    return;
   }
+
+  // Les chiffres du haut : ils donnent du corps à la page même avec une seule
+  // ligne, et disent l'essentiel avant qu'on ait lu quoi que ce soit.
+  const plafondMax = Math.max(...prises.map((m) => m.plafond));
+  const plusGros = Math.max(...prises.map((m) => m.multiplicateur));
+  const jeux = new Set(prises.map((m) => m.jeu)).size;
+  const recent = prises.map((m) => new Date(m.date).getTime()).sort((a, b) => b - a)[0];
+
+  document.getElementById("c-total").textContent = prises.length;
+  document.getElementById("c-gros").textContent = mult(plusGros) + "x";
+  document.getElementById("c-jeux").textContent = jeux;
+  document.getElementById("c-recent").textContent = depuis(new Date(recent).toISOString()).replace("il y a ", "");
+  document.getElementById("chiffres").hidden = false;
+
+  document.getElementById("etat").hidden = true;
+  for (const m of prises) liste.append(ligne(m, plafondMax));
 }
 
 charger();
-// La page reste souvent ouverte : on relit sans forcer un rechargement manuel.
+// La page reste souvent ouverte : on relit sans forcer de rechargement manuel.
 setInterval(charger, 120000);
 </script>
 </body>
