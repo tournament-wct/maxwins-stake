@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-13T17:12:42.345128300+00:00",
-  "compte": 2,
+  "misAJour": "2026-08-14T07:55:48.968550600+00:00",
+  "compte": 3,
   "maxwins": [
+    {
+      "jeu": "Wanted",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 400.0,
+      "date": "2026-08-14T07:55:33Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28655447050"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
