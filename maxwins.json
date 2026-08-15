@@ -1,5 +1,14 @@
 {
-  "misAJour": "2026-08-15T15:38:57.053538800+00:00",
-  "compte": 0,
-  "maxwins": []
+  "misAJour": "2026-08-15T18:13:10.376792500+00:00",
+  "compte": 1,
+  "maxwins": [
+    {
+      "jeu": "Outlaws Inc",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 1.0,
+      "date": "2026-08-15T18:12:54Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28681590634"
+    }
+  ]
 }
