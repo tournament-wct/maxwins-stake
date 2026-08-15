@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-15T10:56:43.550448900+00:00",
-  "compte": 6,
+  "misAJour": "2026-08-15T12:15:53.023069700+00:00",
+  "compte": 7,
   "maxwins": [
+    {
+      "jeu": "Wanted",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-08-15T12:15:51Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28677457649"
+    },
     {
       "jeu": "Le Sortudo",
       "multiplicateur": 2500.0,
