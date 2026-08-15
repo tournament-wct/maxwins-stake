@@ -1,15 +1,7 @@
 {
-  "misAJour": "2026-08-15T15:38:45.907074400+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-15T15:38:47.055909200+00:00",
+  "compte": 2,
   "maxwins": [
-    {
-      "jeu": "Spinman",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-08-14T19:52:36Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28665246805"
-    },
     {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
