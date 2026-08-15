@@ -116,6 +116,13 @@
   }
   .chiffre[data-fort] dd { color: var(--or); }
 
+  .barre-outils {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    margin-top: .8rem;
+  }
+
   /* ── Les prises ────────────────────────────────────────────────────────── */
 
   .liste { display: grid; gap: .8rem; margin-top: clamp(1.8rem, 5vw, 2.6rem); }
@@ -272,6 +279,11 @@
       <div class="chiffre"><dt>Machines</dt><dd id="c-jeux">—</dd></div>
       <div class="chiffre"><dt>Le dernier</dt><dd id="c-recent">—</dd></div>
     </dl>
+
+    <div class="barre-outils" id="outils" hidden>
+      <button type="button" id="b-discord">Copier pour Discord</button>
+      <button type="button" id="b-liens">Copier tous les liens</button>
+    </div>
   </header>
 
   <main class="liste" id="liste"></main>
@@ -418,6 +430,51 @@ function etat(html, tone) {
   e.innerHTML = html;
 }
 
+/**
+ * Copie, avec le même repli que les boutons de ligne : sans presse-papier
+ * (hors HTTPS, permission refusée), le texte reste sélectionnable dans l'invite.
+ */
+async function copierDans(bouton, texte, confirmation) {
+  const libelle = bouton.dataset.libelle;
+  try {
+    await navigator.clipboard.writeText(texte);
+    bouton.textContent = confirmation;
+    bouton.classList.add("fait");
+  } catch {
+    window.prompt("Copie :", texte);
+  }
+  setTimeout(() => {
+    bouton.textContent = libelle;
+    bouton.classList.remove("fait");
+  }, 2000);
+}
+
+// Ce que la page affiche en ce moment. Les boutons du haut s'y réfèrent plutôt
+// que de relire le JSON : ils copient exactement ce qui est sous les yeux.
+let affichees = [];
+
+function brancherOutils() {
+  const discord = document.getElementById("b-discord");
+  const liens = document.getElementById("b-liens");
+  for (const b of [discord, liens]) b.dataset.libelle = b.textContent;
+
+  discord.addEventListener("click", () => {
+    const parJeu = new Map();
+    for (const m of affichees) parJeu.set(m.jeu, (parJeu.get(m.jeu) ?? 0) + 1);
+    // Les machines les mieux servies d'abord : un message Discord se lit de haut
+    // en bas. À nombre égal, ordre alphabétique.
+    const lignes = [...parJeu.entries()]
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "fr"))
+      .map(([jeu, n]) => jeu + " : " + n);
+    copierDans(discord, lignes.join("\n"), lignes.length + " machine" + (lignes.length > 1 ? "s" : "") + " copiée" + (lignes.length > 1 ? "s" : ""));
+  });
+
+  liens.addEventListener("click", () => {
+    const texte = affichees.map((m) => m.jeu + " // " + m.replay).join("\n");
+    copierDans(liens, texte, affichees.length + " lien" + (affichees.length > 1 ? "s" : "") + " copié" + (affichees.length > 1 ? "s" : ""));
+  });
+}
+
 async function charger() {
   const liste = document.getElementById("liste");
   liste.replaceChildren();
@@ -427,11 +484,15 @@ async function charger() {
 
   if (res.vide) {
     document.getElementById("chiffres").hidden = true;
+    document.getElementById("outils").hidden = true;
+    affichees = [];
     etat('<p class="gros">Rien pour le moment.</p><p>Un max win, ça tombe pas tous les jours. Dès qu\'une machine lâche le sien, il arrive ici.</p>');
     return;
   }
   if (res.erreur) {
     document.getElementById("chiffres").hidden = true;
+    document.getElementById("outils").hidden = true;
+    affichees = [];
     etat("<p>Données indisponibles (" + res.erreur + ").</p>", "erreur");
     return;
   }
@@ -442,6 +503,8 @@ async function charger() {
 
   if (!prises.length) {
     document.getElementById("chiffres").hidden = true;
+    document.getElementById("outils").hidden = true;
+    affichees = [];
     etat('<p class="gros">Rien de soumettable pour le moment.</p><p>Ça tourne en continu — la page se remplit toute seule.</p>');
     return;
   }
@@ -459,10 +522,14 @@ async function charger() {
   document.getElementById("c-recent").textContent = depuis(new Date(recent).toISOString()).replace("il y a ", "");
   document.getElementById("chiffres").hidden = false;
 
+  affichees = prises;
+  document.getElementById("outils").hidden = false;
+
   document.getElementById("etat").hidden = true;
   for (const m of prises) liste.append(ligne(m, plafondMax));
 }
 
+brancherOutils();
 charger();
 // La page reste souvent ouverte : on relit sans forcer de rechargement manuel.
 setInterval(charger, 120000);
