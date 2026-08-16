@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-16T10:43:09.998932900+00:00",
-  "compte": 5,
+  "misAJour": "2026-08-16T11:17:47.609105800+00:00",
+  "compte": 6,
   "maxwins": [
+    {
+      "jeu": "Beam Boys",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-08-16T11:17:21Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28695366140"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
