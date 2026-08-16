@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-16T05:04:49.179744100+00:00",
-  "compte": 4,
+  "misAJour": "2026-08-16T10:43:09.998932900+00:00",
+  "compte": 5,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-08-16T10:42:47Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28695017738"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
