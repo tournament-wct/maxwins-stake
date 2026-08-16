@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-16T02:04:25.398255300+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-16T05:04:49.179744100+00:00",
+  "compte": 4,
   "maxwins": [
+    {
+      "jeu": "Hand of Anubis",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 129.0,
+      "date": "2026-08-16T05:04:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28691950610"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
