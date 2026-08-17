@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-16T11:17:47.609105800+00:00",
-  "compte": 6,
+  "misAJour": "2026-08-17T08:21:06.808963600+00:00",
+  "compte": 7,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-08-17T08:21:01Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28709807123"
+    },
     {
       "jeu": "Beam Boys",
       "multiplicateur": 12500.0,
