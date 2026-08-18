@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-18T09:40:50.931032+00:00",
-  "compte": 11,
+  "misAJour": "2026-08-18T18:28:22.932234300+00:00",
+  "compte": 12,
   "maxwins": [
+    {
+      "jeu": "Le Sortudo",
+      "multiplicateur": 2500.0,
+      "plafond": 2500.0,
+      "achat": 100.0,
+      "date": "2026-08-18T18:27:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28732923606"
+    },
     {
       "jeu": "Stormforged",
       "multiplicateur": 12500.0,
