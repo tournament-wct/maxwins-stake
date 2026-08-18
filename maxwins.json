@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-17T19:40:50.728181700+00:00",
-  "compte": 8,
+  "misAJour": "2026-08-18T02:28:22.512083400+00:00",
+  "compte": 9,
   "maxwins": [
+    {
+      "jeu": "Donny Dough",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-08-18T02:28:16Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28723402354"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
