@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-18T02:28:22.512083400+00:00",
-  "compte": 9,
+  "misAJour": "2026-08-18T05:14:13.117738100+00:00",
+  "compte": 10,
   "maxwins": [
+    {
+      "jeu": "Donny Dough",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-08-18T05:13:57Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28724740059"
+    },
     {
       "jeu": "Donny Dough",
       "multiplicateur": 10000.0,
