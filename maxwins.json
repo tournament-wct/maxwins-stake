@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-18T18:28:22.932234300+00:00",
-  "compte": 12,
+  "misAJour": "2026-08-19T11:15:04.837732700+00:00",
+  "compte": 10,
   "maxwins": [
+    {
+      "jeu": "RIP City",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-08-19T11:14:44Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28743334000"
+    },
     {
       "jeu": "Le Sortudo",
       "multiplicateur": 2500.0,
@@ -73,30 +81,6 @@
       "achat": 129.0,
       "date": "2026-08-16T05:04:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28691950610"
-    },
-    {
-      "jeu": "Le Fisherman",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-16T02:04:09Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28690250860"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 3.0,
-      "date": "2026-08-15T23:19:37Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28688066051"
-    },
-    {
-      "jeu": "Outlaws Inc",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 1.0,
-      "date": "2026-08-15T18:12:54Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28681590634"
     }
   ]
 }
