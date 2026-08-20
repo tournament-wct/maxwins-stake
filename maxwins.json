@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-19T11:15:04.837732700+00:00",
-  "compte": 10,
+  "misAJour": "2026-08-20T13:30:53.293298400+00:00",
+  "compte": 8,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 1.0,
+      "date": "2026-08-20T13:30:49Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28760670411"
+    },
     {
       "jeu": "RIP City",
       "multiplicateur": 12500.0,
@@ -57,30 +65,6 @@
       "achat": 250.0,
       "date": "2026-08-17T08:21:01Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28709807123"
-    },
-    {
-      "jeu": "Beam Boys",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-08-16T11:17:21Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28695366140"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-08-16T10:42:47Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28695017738"
-    },
-    {
-      "jeu": "Hand of Anubis",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 129.0,
-      "date": "2026-08-16T05:04:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28691950610"
     }
   ]
 }
