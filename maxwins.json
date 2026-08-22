@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-22T09:12:42.148079700+00:00",
-  "compte": 16,
+  "misAJour": "2026-08-22T15:56:56.277165+00:00",
+  "compte": 17,
   "maxwins": [
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-08-22T15:56:52Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28801779423"
+    },
     {
       "jeu": "Double Rainbow",
       "multiplicateur": 5000.0,
