@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-23T17:11:33.690137500+00:00",
-  "compte": 22,
+  "misAJour": "2026-08-23T20:08:40.701227800+00:00",
+  "compte": 23,
   "maxwins": [
+    {
+      "jeu": "Jaws Of Justice",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-08-23T20:08:26Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28822535693"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
