@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-23T20:08:40.701227800+00:00",
-  "compte": 23,
+  "misAJour": "2026-08-25T05:19:52.246347100+00:00",
+  "compte": 24,
   "maxwins": [
+    {
+      "jeu": "Time Spinners",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 100.0,
+      "date": "2026-08-25T05:19:29Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28844527153"
+    },
     {
       "jeu": "Jaws Of Justice",
       "multiplicateur": 10000.0,
