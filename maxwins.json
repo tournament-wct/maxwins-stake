@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-25T15:41:57.780926400+00:00",
-  "compte": 25,
+  "misAJour": "2026-08-26T13:32:00.022177300+00:00",
+  "compte": 24,
   "maxwins": [
     {
       "jeu": "Wanted Dead or a Wild",
@@ -9,14 +9,6 @@
       "achat": 200.0,
       "date": "2026-08-25T15:41:40Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28850184162"
-    },
-    {
-      "jeu": "Densho",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-08-25T06:58:16Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28845255292"
     },
     {
       "jeu": "Time Spinners",
