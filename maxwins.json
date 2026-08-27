@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-27T10:00:56.781617300+00:00",
-  "compte": 4,
+  "misAJour": "2026-08-27T10:01:02.147538800+00:00",
+  "compte": 3,
   "maxwins": [
     {
       "jeu": "Wanted Dead or a Wild",
@@ -17,14 +17,6 @@
       "achat": 500.0,
       "date": "2026-08-21T11:50:31Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28778065576"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 10.0,
-      "date": "2026-08-21T08:59:00Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28775212724"
     },
     {
       "jeu": "Stack 'Em",
