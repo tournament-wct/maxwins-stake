@@ -1,14 +1,5 @@
 {
-  "misAJour": "2026-08-27T10:01:05.605234400+00:00",
-  "compte": 1,
-  "maxwins": [
-    {
-      "jeu": "Stack 'Em",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 129.0,
-      "date": "2026-08-21T06:38:56Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28773567391"
-    }
-  ]
+  "misAJour": "2026-08-27T10:01:07.729143300+00:00",
+  "compte": 0,
+  "maxwins": []
 }
