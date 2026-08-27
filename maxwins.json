@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-27T10:00:43.031772600+00:00",
-  "compte": 23,
+  "misAJour": "2026-08-27T10:00:44.237113400+00:00",
+  "compte": 20,
   "maxwins": [
     {
       "jeu": "Wanted Dead or a Wild",
@@ -9,30 +9,6 @@
       "achat": 200.0,
       "date": "2026-08-26T20:50:38Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28871459699"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-08-25T15:41:40Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28850184162"
-    },
-    {
-      "jeu": "Time Spinners",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 100.0,
-      "date": "2026-08-25T05:19:29Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28844527153"
-    },
-    {
-      "jeu": "Jaws Of Justice",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-08-23T20:08:26Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28822535693"
     },
     {
       "jeu": "Wanted Dead or a Wild",
