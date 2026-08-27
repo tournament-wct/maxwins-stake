@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-27T17:15:48.775974400+00:00",
-  "compte": 1,
+  "misAJour": "2026-08-27T18:08:20.231468600+00:00",
+  "compte": 2,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-08-27T18:08:15Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28884993248"
+    },
     {
       "jeu": "Le King",
       "multiplicateur": 20000.0,
