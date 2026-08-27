@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-27T10:00:51.020826200+00:00",
-  "compte": 9,
+  "misAJour": "2026-08-27T10:00:52.121357100+00:00",
+  "compte": 8,
   "maxwins": [
     {
       "jeu": "Wanted Dead or a Wild",
@@ -17,14 +17,6 @@
       "achat": 250.0,
       "date": "2026-08-22T07:26:40Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28795589598"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-21T18:29:31Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28784880583"
     },
     {
       "jeu": "Hand of Anubis",
