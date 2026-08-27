@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-27T10:00:44.237113400+00:00",
-  "compte": 20,
+  "misAJour": "2026-08-27T10:00:46.482360400+00:00",
+  "compte": 17,
   "maxwins": [
     {
       "jeu": "Wanted Dead or a Wild",
@@ -9,30 +9,6 @@
       "achat": 200.0,
       "date": "2026-08-26T20:50:38Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28871459699"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-08-23T17:11:09Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28819882317"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-08-23T16:53:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28819720434"
-    },
-    {
-      "jeu": "Hand of Anubis",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 129.0,
-      "date": "2026-08-23T15:08:36Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28818372697"
     },
     {
       "jeu": "Wanted Dead or a Wild",
