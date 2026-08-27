@@ -1,5 +1,14 @@
 {
-  "misAJour": "2026-08-27T10:01:07.729143300+00:00",
-  "compte": 0,
-  "maxwins": []
+  "misAJour": "2026-08-27T17:15:48.775974400+00:00",
+  "compte": 1,
+  "maxwins": [
+    {
+      "jeu": "Le King",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 250.0,
+      "date": "2026-08-27T17:15:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28884258146"
+    }
+  ]
 }
