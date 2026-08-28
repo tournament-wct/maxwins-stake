@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-28T01:47:05.345458700+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-28T11:35:20.621240600+00:00",
+  "compte": 2,
   "maxwins": [
     {
       "jeu": "Le Prechaun",
@@ -17,14 +17,6 @@
       "achat": 250.0,
       "date": "2026-08-27T18:08:15Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28884993248"
-    },
-    {
-      "jeu": "Le King",
-      "multiplicateur": 20000.0,
-      "plafond": 20000.0,
-      "achat": 250.0,
-      "date": "2026-08-27T17:15:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28884258146"
     }
   ]
 }
