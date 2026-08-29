@@ -1,15 +1,7 @@
 {
-  "misAJour": "2026-08-29T20:46:01.851109900+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-29T22:09:00.612185900+00:00",
+  "compte": 2,
   "maxwins": [
-    {
-      "jeu": "Marlin Masters",
-      "multiplicateur": 7500.0,
-      "plafond": 7500.0,
-      "achat": 3.0,
-      "date": "2026-08-29T18:18:12Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28920459187"
-    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
