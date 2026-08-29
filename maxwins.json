@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-28T15:02:15.987079500+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-29T07:52:00.598015100+00:00",
+  "compte": 4,
   "maxwins": [
+    {
+      "jeu": "Supreme Zeus",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 5.0,
+      "date": "2026-08-29T07:51:45Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28912435721"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
