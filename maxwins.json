@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-29T22:09:04.126524500+00:00",
-  "compte": 2,
+  "misAJour": "2026-08-29T22:12:29.462860400+00:00",
+  "compte": 3,
   "maxwins": [
+    {
+      "jeu": "Fist Of Destruction",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-08-29T22:12:19Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28924270059"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
