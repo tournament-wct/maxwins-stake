@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-29T18:18:16.411595+00:00",
-  "compte": 4,
+  "misAJour": "2026-08-29T20:45:58.313951600+00:00",
+  "compte": 3,
   "maxwins": [
     {
       "jeu": "Marlin Masters",
@@ -25,14 +25,6 @@
       "achat": 500.0,
       "date": "2026-08-28T01:46:55Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28891653307"
-    },
-    {
-      "jeu": "Le Bandit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-08-27T18:08:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28884993248"
     }
   ]
 }
