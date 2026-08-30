@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-30T20:58:45.933435700+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-30T20:58:48.373042600+00:00",
+  "compte": 1,
   "maxwins": [
     {
       "jeu": "Hot Ross",
@@ -9,22 +9,6 @@
       "achat": 1000.0,
       "date": "2026-08-30T18:49:15Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28937384001"
-    },
-    {
-      "jeu": "Fist Of Destruction",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-08-29T22:12:19Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28924270059"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-28T01:46:55Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28891653307"
     }
   ]
 }
