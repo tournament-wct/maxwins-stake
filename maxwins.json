@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-08-30T18:49:35.307011800+00:00",
-  "compte": 4,
+  "misAJour": "2026-08-30T20:58:45.933435700+00:00",
+  "compte": 3,
   "maxwins": [
     {
       "jeu": "Hot Ross",
@@ -17,14 +17,6 @@
       "achat": 250.0,
       "date": "2026-08-29T22:12:19Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28924270059"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 100.0,
-      "date": "2026-08-28T15:02:08Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28899299434"
     },
     {
       "jeu": "Le Prechaun",
