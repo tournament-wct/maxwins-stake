@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-30T23:15:55.397141100+00:00",
-  "compte": 2,
+  "misAJour": "2026-08-30T23:22:47.860605400+00:00",
+  "compte": 3,
   "maxwins": [
+    {
+      "jeu": "Chaos Crew 2",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 250.0,
+      "date": "2026-08-30T23:22:34Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28941536800"
+    },
     {
       "jeu": "Le Bandit",
       "multiplicateur": 10000.0,
