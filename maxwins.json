@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-29T22:12:29.462860400+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-30T18:49:35.307011800+00:00",
+  "compte": 4,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-08-30T18:49:15Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28937384001"
+    },
     {
       "jeu": "Fist Of Destruction",
       "multiplicateur": 10000.0,
