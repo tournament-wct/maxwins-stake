@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-08-30T23:22:47.860605400+00:00",
-  "compte": 3,
+  "misAJour": "2026-08-31T01:03:07.801914400+00:00",
+  "compte": 4,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-08-31T01:03:04Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28942696014"
+    },
     {
       "jeu": "Chaos Crew 2",
       "multiplicateur": 20000.0,
