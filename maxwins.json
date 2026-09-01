@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-01T00:28:03.759777400+00:00",
-  "compte": 5,
+  "misAJour": "2026-09-01T02:22:07.619783400+00:00",
+  "compte": 6,
   "maxwins": [
+    {
+      "jeu": "Duel At Dawn",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 3.0,
+      "date": "2026-09-01T02:21:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28960468700"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
