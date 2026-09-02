@@ -87,6 +87,22 @@
   }
   .intro strong { color: var(--os); font-weight: 600; }
 
+  /* Le renvoi vers le registre. Discret : cette page-ci a son sujet, l'autre
+     est un ailleurs qu'on propose, pas une bannière qu'on impose. */
+  .ailleurs {
+    margin: 1.1rem 0 0;
+    font-size: .9rem;
+    color: var(--os-faible);
+  }
+  .ailleurs a {
+    color: var(--froid);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(95, 212, 221, .35);
+    padding-bottom: 1px;
+  }
+  .ailleurs a:hover,
+  .ailleurs a:focus-visible { border-bottom-color: var(--froid); }
+
   /* ── Bandeau de chiffres ───────────────────────────────────────────────── */
 
   .chiffres {
@@ -271,6 +287,12 @@
       sur Stake. Chaque replay est vérifié chez Hacksaw. Il n'y a ici que ce qui
       passe le <strong>Max Win Club</strong> : machine dans la liste, base bet à
       0,25 € minimum.
+    </p>
+
+    <p class="ailleurs">
+      Tout le reste — Hacksaw et Stake&nbsp;Engine confondus, achats de bonus
+      compris, sans filtre de Club — est dans le
+      <a href="registre.html">registre complet</a>.
     </p>
 
     <dl class="chiffres" id="chiffres" hidden>
