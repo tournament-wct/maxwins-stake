@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-02T10:21:02.726257500+00:00",
-  "compte": 8,
+  "misAJour": "2026-09-02T11:40:01.954549800+00:00",
+  "compte": 9,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-09-02T11:39:49Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28983258160"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
