@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-04T09:03:29.430371+00:00",
-  "compte": 13,
+  "misAJour": "2026-09-04T15:37:07.357879400+00:00",
+  "compte": 14,
   "maxwins": [
+    {
+      "jeu": "Epic Bullets And Bounty",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 5.0,
+      "date": "2026-09-04T15:36:46Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29022036709"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
