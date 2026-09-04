@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-04T15:37:07.357879400+00:00",
-  "compte": 14,
+  "misAJour": "2026-09-04T17:02:33.950005700+00:00",
+  "compte": 15,
   "maxwins": [
+    {
+      "jeu": "Circle Of Life",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 5.0,
+      "date": "2026-09-04T17:02:25Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29023416900"
+    },
     {
       "jeu": "Epic Bullets And Bounty",
       "multiplicateur": 20000.0,
