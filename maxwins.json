@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-04T17:02:33.950005700+00:00",
-  "compte": 15,
+  "misAJour": "2026-09-04T21:41:16.564927400+00:00",
+  "compte": 16,
   "maxwins": [
+    {
+      "jeu": "Chaos Crew 3",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 5.0,
+      "date": "2026-09-04T21:40:57Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29028320735"
+    },
     {
       "jeu": "Circle Of Life",
       "multiplicateur": 15000.0,
