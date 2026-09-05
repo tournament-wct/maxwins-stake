@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-05T01:36:47.295514800+00:00",
-  "compte": 17,
+  "misAJour": "2026-09-05T02:33:20.796882300+00:00",
+  "compte": 18,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-09-05T02:33:16Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29032978688"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
