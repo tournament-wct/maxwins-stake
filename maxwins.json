@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-05T02:33:20.796882300+00:00",
-  "compte": 18,
+  "misAJour": "2026-09-05T04:26:17.891962700+00:00",
+  "compte": 19,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-09-05T04:25:54Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29034214583"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
