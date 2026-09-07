@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-07T12:28:49.442619900+00:00",
-  "compte": 27,
+  "misAJour": "2026-09-07T14:00:54.921485700+00:00",
+  "compte": 28,
   "maxwins": [
+    {
+      "jeu": "Chaos Crew 3",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 1.0,
+      "date": "2026-09-07T14:00:41Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29074506474"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
