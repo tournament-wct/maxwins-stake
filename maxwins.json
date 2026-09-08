@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-09-08T20:08:09.429630700+00:00",
-  "compte": 23,
+  "misAJour": "2026-09-08T20:08:23.149497300+00:00",
+  "compte": 22,
   "maxwins": [
     {
       "jeu": "Life And Death",
@@ -177,14 +177,6 @@
       "achat": 250.0,
       "date": "2026-08-30T23:14:05Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28941459895"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-08-30T18:49:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28937384001"
     }
   ]
 }
