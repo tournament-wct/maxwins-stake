@@ -1,6 +1,6 @@
 {
-  "misAJour": "2026-09-08T20:07:13.326654700+00:00",
-  "compte": 26,
+  "misAJour": "2026-09-08T20:07:19.078913800+00:00",
+  "compte": 25,
   "maxwins": [
     {
       "jeu": "Life And Death",
@@ -81,14 +81,6 @@
       "achat": 200.0,
       "date": "2026-09-05T16:18:16Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29042561834"
-    },
-    {
-      "jeu": "Le Bandit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-09-05T04:25:54Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29034214583"
     },
     {
       "jeu": "Le Prechaun",
