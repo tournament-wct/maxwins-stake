@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-08T20:08:23.149497300+00:00",
-  "compte": 22,
+  "misAJour": "2026-09-08T21:13:16.407706300+00:00",
+  "compte": 23,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-09-08T21:13:03Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29096658010"
+    },
     {
       "jeu": "Life And Death",
       "multiplicateur": 15000.0,
