@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-09T16:20:28.503198600+00:00",
-  "compte": 26,
+  "misAJour": "2026-09-09T19:02:49.846420600+00:00",
+  "compte": 27,
   "maxwins": [
+    {
+      "jeu": "SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 10.0,
+      "date": "2026-09-09T19:02:25Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29110485115"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
