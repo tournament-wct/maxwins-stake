@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-10T22:01:22.857777300+00:00",
-  "compte": 66,
+  "misAJour": "2026-09-10T23:47:01.131403800+00:00",
+  "compte": 67,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-09-10T23:46:44Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29131951607"
+    },
     {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
