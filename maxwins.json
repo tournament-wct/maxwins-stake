@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-11T21:48:15.202425200+00:00",
-  "compte": 72,
+  "misAJour": "2026-09-11T21:57:24.458984+00:00",
+  "compte": 73,
   "maxwins": [
+    {
+      "jeu": "Marlin Masters The Big Haul",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-09-11T21:57:11Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29147667043"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
