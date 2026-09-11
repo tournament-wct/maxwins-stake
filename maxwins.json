@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-11T06:44:56.944977+00:00",
-  "compte": 69,
+  "misAJour": "2026-09-11T12:09:48.304951100+00:00",
+  "compte": 70,
   "maxwins": [
+    {
+      "jeu": "Eternal Duel",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-09-11T12:09:47Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013111474130"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
