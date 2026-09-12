@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-12T05:37:27.096271800+00:00",
-  "compte": 75,
+  "misAJour": "2026-09-12T07:19:58.580864900+00:00",
+  "compte": 76,
   "maxwins": [
+    {
+      "jeu": "SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 250.0,
+      "date": "2026-09-12T07:19:35Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29153863725"
+    },
     {
       "jeu": "Pray for Six",
       "multiplicateur": 20000.0,
