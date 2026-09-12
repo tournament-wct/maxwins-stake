@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-11T21:57:24.458984+00:00",
-  "compte": 73,
+  "misAJour": "2026-09-12T01:06:00.104002300+00:00",
+  "compte": 74,
   "maxwins": [
+    {
+      "jeu": "Toshi Ways Club",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 100.0,
+      "date": "2026-09-12T01:05:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013121606044"
+    },
     {
       "jeu": "Marlin Masters The Big Haul",
       "multiplicateur": 10000.0,
