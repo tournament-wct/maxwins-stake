@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-21T19:59:05.731467200+00:00",
-  "compte": 129,
+  "misAJour": "2026-09-21T20:15:12.746045100+00:00",
+  "compte": 130,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-09-21T20:15:11Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013261996728"
+    },
     {
       "jeu": "Hot Ross",
       "multiplicateur": 15000.0,
