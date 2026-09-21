@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-21T18:06:58.784775300+00:00",
+  "misAJour": "2026-09-21T18:22:31.775331600+00:00",
   "compte": 129,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-21T18:22:27Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013260396052"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
@@ -1025,14 +1033,6 @@
       "achat": 129.0,
       "date": "2026-08-16T05:04:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28691950610"
-    },
-    {
-      "jeu": "Le Fisherman",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-16T02:04:09Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28690250860"
     }
   ]
 }
