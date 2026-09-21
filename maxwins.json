@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-21T17:30:55.610709400+00:00",
+  "misAJour": "2026-09-21T17:51:20.428614700+00:00",
   "compte": 129,
   "maxwins": [
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-09-21T17:51:13Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29315485032"
+    },
     {
       "jeu": "Le Viking",
       "multiplicateur": 10000.0,
@@ -1025,14 +1033,6 @@
       "achat": 3.0,
       "date": "2026-08-15T23:19:37Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28688066051"
-    },
-    {
-      "jeu": "Cash Crooks",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 50.0,
-      "date": "2026-08-15T23:02:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28687868137"
     }
   ]
 }
