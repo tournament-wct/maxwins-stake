@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-21T18:22:31.775331600+00:00",
+  "misAJour": "2026-09-21T19:59:05.731467200+00:00",
   "compte": 129,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-09-21T19:59:04Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013261766343"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
@@ -1025,14 +1033,6 @@
       "achat": 3.0,
       "date": "2026-08-16T10:37:44Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28694972160"
-    },
-    {
-      "jeu": "Hand of Anubis",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 129.0,
-      "date": "2026-08-16T05:04:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28691950610"
     }
   ]
 }
