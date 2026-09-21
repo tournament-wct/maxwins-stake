@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-21T20:15:12.746045100+00:00",
+  "misAJour": "2026-09-21T22:49:30.525975500+00:00",
   "compte": 130,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-21T22:49:06Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29320097501"
+    },
     {
       "jeu": "Hot Ross",
       "multiplicateur": 15000.0,
@@ -1033,14 +1041,6 @@
       "achat": 200.0,
       "date": "2026-08-16T10:42:47Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28695017738"
-    },
-    {
-      "jeu": "Cash Crooks",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-08-16T10:37:44Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28694972160"
     }
   ]
 }
