@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-22T01:27:34.736990100+00:00",
+  "misAJour": "2026-09-22T02:54:55.194453300+00:00",
   "compte": 130,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-09-22T02:54:46Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29322595458"
+    },
     {
       "jeu": "Le King",
       "multiplicateur": 20000.0,
@@ -1033,14 +1041,6 @@
       "achat": 500.0,
       "date": "2026-08-16T17:04:50Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28699457261"
-    },
-    {
-      "jeu": "Beam Boys",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-08-16T11:17:21Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28695366140"
     }
   ]
 }
