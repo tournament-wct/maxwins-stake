@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-22T23:06:12.039032700+00:00",
-  "compte": 131,
+  "misAJour": "2026-09-23T22:54:19.365043900+00:00",
+  "compte": 128,
   "maxwins": [
+    {
+      "jeu": "Le Digger",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-09-23T22:54:05Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29352245956"
+    },
     {
       "jeu": "Densho",
       "multiplicateur": 10000.0,
@@ -1017,38 +1025,6 @@
       "achat": 200.0,
       "date": "2026-08-18T02:28:16Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28723402354"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-17T23:17:53Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28721308484"
-    },
-    {
-      "jeu": "Cash Crooks",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-08-17T21:12:27Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28719409442"
-    },
-    {
-      "jeu": "Hand of Anubis",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 200.0,
-      "date": "2026-08-17T19:40:36Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28717741422"
-    },
-    {
-      "jeu": "Cash Crooks",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-08-17T11:11:24Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28711274293"
     }
   ]
 }
