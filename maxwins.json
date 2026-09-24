@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-24T14:10:40.633980300+00:00",
+  "misAJour": "2026-09-24T18:37:07.757859100+00:00",
   "compte": 126,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-09-24T18:37:05Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29363591455"
+    },
     {
       "jeu": "Hot Ross",
       "multiplicateur": 15000.0,
@@ -1001,14 +1009,6 @@
       "achat": 200.0,
       "date": "2026-08-19T11:14:44Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28743334000"
-    },
-    {
-      "jeu": "Le Sortudo",
-      "multiplicateur": 2500.0,
-      "plafond": 2500.0,
-      "achat": 100.0,
-      "date": "2026-08-18T18:27:56Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28732923606"
     }
   ]
 }
