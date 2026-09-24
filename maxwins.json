@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-24T18:37:07.757859100+00:00",
-  "compte": 126,
+  "misAJour": "2026-09-24T19:10:02.603308300+00:00",
+  "compte": 127,
   "maxwins": [
+    {
+      "jeu": "Pray For Three",
+      "multiplicateur": 13333.0,
+      "plafond": 13333.0,
+      "achat": 225.0,
+      "date": "2026-09-24T19:09:59Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013302455042"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
