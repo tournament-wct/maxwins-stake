@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-24T19:10:02.603308300+00:00",
-  "compte": 127,
+  "misAJour": "2026-09-24T22:35:07.582615500+00:00",
+  "compte": 128,
   "maxwins": [
+    {
+      "jeu": "Ronin Stackways",
+      "multiplicateur": 5000.0,
+      "plafond": 5000.0,
+      "achat": 200.0,
+      "date": "2026-09-24T22:35:04Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013304973039"
+    },
     {
       "jeu": "Pray For Three",
       "multiplicateur": 13333.0,
