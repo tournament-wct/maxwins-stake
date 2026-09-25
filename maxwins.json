@@ -1,7 +1,23 @@
 {
-  "misAJour": "2026-09-25T10:25:02.619311900+00:00",
-  "compte": 128,
+  "misAJour": "2026-09-25T13:30:00.441415500+00:00",
+  "compte": 129,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 1.0,
+      "date": "2026-09-25T13:29:42Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29375684598"
+    },
+    {
+      "jeu": "Slayers Inc",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 3.0,
+      "date": "2026-09-25T10:48:12Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29373940969"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1017,14 +1033,6 @@
       "achat": 500.0,
       "date": "2026-08-26T10:21:17Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28863356097"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-08-20T13:30:49Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28760670411"
     }
   ]
 }
