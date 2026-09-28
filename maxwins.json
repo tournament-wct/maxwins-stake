@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-28T13:18:34.323041900+00:00",
-  "compte": 137,
+  "misAJour": "2026-09-28T22:41:22.694845800+00:00",
+  "compte": 136,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-28T22:41:21Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013359194389"
+    },
     {
       "jeu": "Benny the Beer",
       "multiplicateur": 10000.0,
@@ -1081,22 +1089,6 @@
       "achat": 200.0,
       "date": "2026-08-28T02:18:32Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28891929676"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-26T22:11:09Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28872774175"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-08-26T10:21:17Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28863356097"
     }
   ]
 }
