@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-30T22:03:06.403634700+00:00",
-  "compte": 137,
+  "misAJour": "2026-09-30T23:41:14.263209600+00:00",
+  "compte": 139,
   "maxwins": [
+    {
+      "jeu": "Epic Bullets And Bounty",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 200.0,
+      "date": "2026-09-30T23:41:11Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013387416330"
+    },
     {
       "jeu": "Le Rapper",
       "multiplicateur": 10000.0,
@@ -1097,6 +1105,14 @@
       "achat": 250.0,
       "date": "2026-08-30T23:14:05Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28941459895"
+    },
+    {
+      "jeu": "Minted Mike",
+      "multiplicateur": 5000.0,
+      "plafond": 5000.0,
+      "achat": 3.0,
+      "date": "2026-08-30T21:25:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=28939748567"
     }
   ]
 }
