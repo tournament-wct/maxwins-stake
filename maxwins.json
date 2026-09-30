@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-09-30T15:12:41.874916100+00:00",
-  "compte": 135,
+  "misAJour": "2026-09-30T16:11:26.062708300+00:00",
+  "compte": 136,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-09-30T16:11:07Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29459782328"
+    },
     {
       "jeu": "Spear of Athena",
       "multiplicateur": 15000.0,
