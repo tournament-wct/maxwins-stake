@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-01T15:32:43.795112300+00:00",
-  "compte": 137,
+  "misAJour": "2026-10-01T17:58:07.632278500+00:00",
+  "compte": 138,
   "maxwins": [
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-10-01T17:57:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29477580544"
+    },
     {
       "jeu": "Drop 'Em",
       "multiplicateur": 10000.0,
