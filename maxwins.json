@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-02T14:15:59.035144700+00:00",
-  "compte": 139,
+  "misAJour": "2026-10-02T19:58:47.257491900+00:00",
+  "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-02T19:58:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29497683213"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
