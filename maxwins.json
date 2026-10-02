@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-02T19:58:47.257491900+00:00",
+  "misAJour": "2026-10-02T21:38:48.506810200+00:00",
   "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Eternal Duel",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-10-02T21:38:43Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29499501797"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1113,14 +1121,6 @@
       "achat": 200.0,
       "date": "2026-09-05T01:36:35Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29032363814"
-    },
-    {
-      "jeu": "Chaos Crew 3",
-      "multiplicateur": 30000.0,
-      "plafond": 30000.0,
-      "achat": 5.0,
-      "date": "2026-09-04T21:40:57Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29028320735"
     }
   ]
 }
