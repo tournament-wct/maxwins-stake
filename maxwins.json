@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-03T01:35:38.091694800+00:00",
+  "misAJour": "2026-10-03T01:56:17.371185800+00:00",
   "compte": 142,
   "maxwins": [
+    {
+      "jeu": "Cloud Princess",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-03T01:56:07Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29503217519"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1129,14 +1137,6 @@
       "achat": 200.0,
       "date": "2026-09-05T01:36:35Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29032363814"
-    },
-    {
-      "jeu": "Chaos Crew 3",
-      "multiplicateur": 30000.0,
-      "plafond": 30000.0,
-      "achat": 5.0,
-      "date": "2026-09-04T21:40:57Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29028320735"
     }
   ]
 }
