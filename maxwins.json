@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-03T12:57:25.205888800+00:00",
-  "compte": 142,
+  "misAJour": "2026-10-04T00:55:06.085891400+00:00",
+  "compte": 141,
   "maxwins": [
+    {
+      "jeu": "Le Pharaoh",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-10-04T00:54:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29520951282"
+    },
     {
       "jeu": "Dynasty Of Death",
       "multiplicateur": 12500.0,
@@ -1121,22 +1129,6 @@
       "achat": 200.0,
       "date": "2026-09-05T16:18:16Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29042561834"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-09-05T02:33:16Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29032978688"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-05T01:36:35Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29032363814"
     }
   ]
 }
