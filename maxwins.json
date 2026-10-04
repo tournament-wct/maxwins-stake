@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-04T03:30:02.280279600+00:00",
-  "compte": 141,
+  "misAJour": "2026-10-04T15:20:53.832269300+00:00",
+  "compte": 139,
   "maxwins": [
+    {
+      "jeu": "Le Catcher",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-04T15:20:35Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29529459880"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
@@ -1105,30 +1113,6 @@
       "achat": 200.0,
       "date": "2026-09-06T17:11:41Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29060995549"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-06T14:19:22Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29058749626"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-06T02:53:28Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29052256032"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-09-06T01:20:30Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29051285239"
     }
   ]
 }
