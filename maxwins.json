@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-04T22:37:08.316297300+00:00",
-  "compte": 133,
+  "misAJour": "2026-10-05T00:31:22.969236400+00:00",
+  "compte": 135,
   "maxwins": [
+    {
+      "jeu": "Chaos Crew 2",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 5.0,
+      "date": "2026-10-05T00:30:53Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29537080090"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1065,6 +1073,14 @@
       "achat": 250.0,
       "date": "2026-09-08T21:13:03Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29096658010"
+    },
+    {
+      "jeu": "Life And Death",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-09-08T10:11:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29088784909"
     }
   ]
 }
