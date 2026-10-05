@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-05T11:20:55.127466+00:00",
-  "compte": 139,
+  "misAJour": "2026-10-05T15:32:10.402201900+00:00",
+  "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 3.0,
+      "date": "2026-10-05T15:31:46Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29546924641"
+    },
     {
       "jeu": "Cloud Princess",
       "multiplicateur": 10000.0,
