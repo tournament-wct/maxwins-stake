@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-05T05:48:25.433358300+00:00",
-  "compte": 140,
+  "misAJour": "2026-10-05T11:20:55.127466+00:00",
+  "compte": 139,
   "maxwins": [
+    {
+      "jeu": "Cloud Princess",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-05T11:20:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29543450437"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
@@ -1105,22 +1113,6 @@
       "achat": 250.0,
       "date": "2026-09-08T21:13:03Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29096658010"
-    },
-    {
-      "jeu": "Life And Death",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 200.0,
-      "date": "2026-09-08T10:11:32Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29088784909"
-    },
-    {
-      "jeu": "Slayers Inc",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 110.0,
-      "date": "2026-09-07T19:57:41Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29080021663"
     }
   ]
 }
