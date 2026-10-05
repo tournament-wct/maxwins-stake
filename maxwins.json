@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-05T01:24:40.521399400+00:00",
+  "misAJour": "2026-10-05T02:30:30.234875700+00:00",
   "compte": 135,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-05T02:30:19Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29538278245"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1073,14 +1081,6 @@
       "achat": 500.0,
       "date": "2026-09-09T13:45:42Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29106374181"
-    },
-    {
-      "jeu": "Le Bandit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-09-08T21:13:03Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29096658010"
     }
   ]
 }
