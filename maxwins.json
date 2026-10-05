@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-05T19:43:01.631563+00:00",
-  "compte": 141,
+  "misAJour": "2026-10-05T20:48:25.363497400+00:00",
+  "compte": 142,
   "maxwins": [
+    {
+      "jeu": "Le Rapper",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-10-05T20:48:05Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29552613145"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
