@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-07T14:08:24.112277800+00:00",
-  "compte": 139,
+  "misAJour": "2026-10-07T20:01:19.126891400+00:00",
+  "compte": 141,
   "maxwins": [
+    {
+      "jeu": "Duel At Dawn",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-10-07T20:01:00Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29585743881"
+    },
     {
       "jeu": "Pray for Six",
       "multiplicateur": 20000.0,
@@ -1113,6 +1121,14 @@
       "achat": 200.0,
       "date": "2026-09-10T18:13:56Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29126438973"
+    },
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-10T10:27:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013094378287"
     }
   ]
 }
