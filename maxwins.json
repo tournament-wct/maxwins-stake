@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-09T19:16:45.406173200+00:00",
-  "compte": 142,
+  "misAJour": "2026-10-09T21:41:49.101672900+00:00",
+  "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-09T21:41:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29620738231"
+    },
     {
       "jeu": "Le Cowboy",
       "multiplicateur": 25000.0,
@@ -1113,30 +1121,6 @@
       "achat": 250.0,
       "date": "2026-09-11T21:48:09Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29147490601"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-11T17:04:37Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29142996853"
-    },
-    {
-      "jeu": "Eternal Duel",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-11T12:09:47Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013111474130"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 250.0,
-      "date": "2026-09-11T06:44:42Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29136107073"
     }
   ]
 }
