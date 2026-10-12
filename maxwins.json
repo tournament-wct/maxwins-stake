@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-12T19:59:45.705333900+00:00",
-  "compte": 142,
+  "misAJour": "2026-10-12T22:29:42.459985600+00:00",
+  "compte": 141,
   "maxwins": [
+    {
+      "jeu": "Life And Death",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-10-12T22:29:31Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29670270348"
+    },
     {
       "jeu": "The Count",
       "multiplicateur": 12500.0,
@@ -1121,22 +1129,6 @@
       "achat": 200.0,
       "date": "2026-09-13T00:40:12Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29167305415"
-    },
-    {
-      "jeu": "Jaws Of Justice",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-09-12T20:13:45Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013132384366"
-    },
-    {
-      "jeu": "Le Bandit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-09-12T19:47:32Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29162929008"
     }
   ]
 }
