@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-12T07:33:03.260407300+00:00",
-  "compte": 141,
+  "misAJour": "2026-10-12T07:52:12.005460900+00:00",
+  "compte": 142,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-10-12T07:52:08Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29660336705"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
