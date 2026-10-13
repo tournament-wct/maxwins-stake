@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-12T22:29:42.459985600+00:00",
-  "compte": 141,
+  "misAJour": "2026-10-13T05:49:39.808508400+00:00",
+  "compte": 142,
   "maxwins": [
+    {
+      "jeu": "Dork Unit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-13T05:49:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013572922103"
+    },
     {
       "jeu": "Life And Death",
       "multiplicateur": 15000.0,
