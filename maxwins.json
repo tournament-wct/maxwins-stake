@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-14T22:45:15.823663900+00:00",
-  "compte": 137,
+  "misAJour": "2026-10-15T12:37:00.465423200+00:00",
+  "compte": 136,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-15T12:36:54Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29710071918"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
@@ -1081,22 +1089,6 @@
       "achat": 200.0,
       "date": "2026-09-14T01:55:53Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29183123634"
-    },
-    {
-      "jeu": "Eternal Duel",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-13T22:00:48Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013146657721"
-    },
-    {
-      "jeu": "Eternal Duel",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-13T21:58:01Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013146629707"
     }
   ]
 }
