@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-16T00:36:16.333693900+00:00",
-  "compte": 137,
+  "misAJour": "2026-10-16T03:39:13.072639+00:00",
+  "compte": 136,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-16T03:39:10Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013615952869"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
@@ -1081,22 +1089,6 @@
       "achat": 1000.0,
       "date": "2026-09-14T21:08:15Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013159289261"
-    },
-    {
-      "jeu": "Donut Division",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-14T20:55:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29197859244"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-14T20:28:09Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29197361277"
     }
   ]
 }
