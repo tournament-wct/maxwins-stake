@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-17T19:15:46.221971500+00:00",
-  "compte": 136,
+  "misAJour": "2026-10-17T19:34:27.465642900+00:00",
+  "compte": 135,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-17T19:34:06Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29750296278"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
@@ -1073,22 +1081,6 @@
       "achat": 3.0,
       "date": "2026-09-15T10:43:38Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29207205791"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-15T09:44:53Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013165254638"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-09-15T08:20:47Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29205823266"
     }
   ]
 }
