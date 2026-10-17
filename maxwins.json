@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-17T18:32:22.926762900+00:00",
-  "compte": 135,
+  "misAJour": "2026-10-17T19:15:46.221971500+00:00",
+  "compte": 136,
   "maxwins": [
+    {
+      "jeu": "SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 250.0,
+      "date": "2026-10-17T19:15:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29749992369"
+    },
     {
       "jeu": "Stormforged",
       "multiplicateur": 12500.0,
