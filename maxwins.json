@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-17T11:55:15.653934900+00:00",
-  "compte": 134,
+  "misAJour": "2026-10-17T18:32:22.926762900+00:00",
+  "compte": 135,
   "maxwins": [
+    {
+      "jeu": "Stormforged",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-17T18:32:14Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29749225310"
+    },
     {
       "jeu": "Le Catcher",
       "multiplicateur": 15000.0,
