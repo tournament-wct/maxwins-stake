@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-17T03:10:39.700460300+00:00",
-  "compte": 133,
+  "misAJour": "2026-10-17T11:55:15.653934900+00:00",
+  "compte": 134,
   "maxwins": [
+    {
+      "jeu": "Le Catcher",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 50.0,
+      "date": "2026-10-17T11:55:10Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29743149103"
+    },
     {
       "jeu": "RIP City",
       "multiplicateur": 12500.0,
