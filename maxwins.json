@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T05:10:15.416733800+00:00",
+  "misAJour": "2026-10-18T16:21:33.378827300+00:00",
   "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Eternal Duel",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-10-18T16:21:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013651791799"
+    },
     {
       "jeu": "Miami Mayhem",
       "multiplicateur": 15000.0,
@@ -1113,14 +1121,6 @@
       "achat": 3.0,
       "date": "2026-09-16T04:31:26Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013177907628"
-    },
-    {
-      "jeu": "Le Bandit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 100.0,
-      "date": "2026-09-15T21:37:00Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29216753190"
     }
   ]
 }
