@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T16:21:33.378827300+00:00",
-  "compte": 140,
+  "misAJour": "2026-10-18T17:22:54.257963800+00:00",
+  "compte": 134,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-10-18T17:22:50Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013652481229"
+    },
     {
       "jeu": "Eternal Duel",
       "multiplicateur": 15000.0,
@@ -1065,62 +1073,6 @@
       "achat": 500.0,
       "date": "2026-09-17T09:07:30Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29240509974"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-16T23:35:21Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29235480246"
-    },
-    {
-      "jeu": "Le Pharaoh",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 100.0,
-      "date": "2026-09-16T20:57:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29233112136"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-16T20:45:14Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013188361105"
-    },
-    {
-      "jeu": "Xmas Drop",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 3.0,
-      "date": "2026-09-16T20:30:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29232598578"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 10.0,
-      "date": "2026-09-16T19:41:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013187465390"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-16T06:58:19Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29222868841"
-    },
-    {
-      "jeu": "Cloud Princess",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-09-16T04:31:26Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013177907628"
     }
   ]
 }
