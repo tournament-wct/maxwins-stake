@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T03:41:30.183670100+00:00",
-  "compte": 133,
+  "misAJour": "2026-10-18T04:20:41.444477300+00:00",
+  "compte": 139,
   "maxwins": [
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-10-18T04:20:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29756821602"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
@@ -1065,6 +1073,46 @@
       "achat": 1000.0,
       "date": "2026-09-16T20:45:14Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013188361105"
+    },
+    {
+      "jeu": "Xmas Drop",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 3.0,
+      "date": "2026-09-16T20:30:51Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29232598578"
+    },
+    {
+      "jeu": "SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 10.0,
+      "date": "2026-09-16T19:41:51Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013187465390"
+    },
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-16T06:58:19Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29222868841"
+    },
+    {
+      "jeu": "Cloud Princess",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-09-16T04:31:26Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013177907628"
+    },
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 100.0,
+      "date": "2026-09-15T21:37:00Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29216753190"
     }
   ]
 }
