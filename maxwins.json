@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T20:33:12.763933100+00:00",
-  "compte": 134,
+  "misAJour": "2026-10-18T21:05:39.961605200+00:00",
+  "compte": 135,
   "maxwins": [
+    {
+      "jeu": "Eternal Duel",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-10-18T21:05:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013655038782"
+    },
     {
       "jeu": "Sun Princess",
       "multiplicateur": 10000.0,
