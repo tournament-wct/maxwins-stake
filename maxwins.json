@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T17:22:54.257963800+00:00",
-  "compte": 134,
+  "misAJour": "2026-10-18T19:26:31.048528800+00:00",
+  "compte": 133,
   "maxwins": [
+    {
+      "jeu": "Life And Death",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 60.0,
+      "date": "2026-10-18T19:26:04Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29765480125"
+    },
     {
       "jeu": "Hot Ross",
       "multiplicateur": 15000.0,
@@ -1057,22 +1065,6 @@
       "achat": 250.0,
       "date": "2026-09-18T13:51:34Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013213762835"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-17T14:21:18Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29243584429"
-    },
-    {
-      "jeu": "Le Fisherman",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-17T09:07:30Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29240509974"
     }
   ]
 }
