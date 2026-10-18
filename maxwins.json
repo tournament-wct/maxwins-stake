@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T02:42:46.681225+00:00",
-  "compte": 134,
+  "misAJour": "2026-10-18T03:02:31.959440900+00:00",
+  "compte": 135,
   "maxwins": [
+    {
+      "jeu": "Minted Mike",
+      "multiplicateur": 5000.0,
+      "plafond": 5000.0,
+      "achat": 1.0,
+      "date": "2026-10-18T03:02:30Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013645226145"
+    },
     {
       "jeu": "Time Spinners",
       "multiplicateur": 10000.0,
