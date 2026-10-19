@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-18T22:07:21.348676600+00:00",
-  "compte": 143,
+  "misAJour": "2026-10-19T09:12:21.312928+00:00",
+  "compte": 137,
   "maxwins": [
+    {
+      "jeu": "Life And Death",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-10-19T09:11:58Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29772960824"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1089,62 +1097,6 @@
       "achat": 250.0,
       "date": "2026-09-18T13:51:34Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013213762835"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-17T14:21:18Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29243584429"
-    },
-    {
-      "jeu": "Le Fisherman",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-17T09:07:30Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29240509974"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-16T23:35:21Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29235480246"
-    },
-    {
-      "jeu": "Le Pharaoh",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 100.0,
-      "date": "2026-09-16T20:57:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29233112136"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-16T20:45:14Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013188361105"
-    },
-    {
-      "jeu": "Xmas Drop",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 3.0,
-      "date": "2026-09-16T20:30:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29232598578"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 10.0,
-      "date": "2026-09-16T19:41:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013187465390"
     }
   ]
 }
