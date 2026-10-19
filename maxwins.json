@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-19T21:29:51.693871400+00:00",
-  "compte": 139,
+  "misAJour": "2026-10-19T23:21:08.018321800+00:00",
+  "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Le Catcher",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-19T23:21:00Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29782865460"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
