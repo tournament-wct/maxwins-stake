@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-21T07:59:28.425339500+00:00",
-  "compte": 139,
+  "misAJour": "2026-10-21T10:34:01.427129500+00:00",
+  "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Supreme Zeus",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 5.0,
+      "date": "2026-10-21T10:33:37Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29802308580"
+    },
     {
       "jeu": "Le Rapper",
       "multiplicateur": 10000.0,
