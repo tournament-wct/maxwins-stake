@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-21T14:10:46.099701400+00:00",
-  "compte": 139,
+  "misAJour": "2026-10-21T17:49:27.289077400+00:00",
+  "compte": 140,
   "maxwins": [
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-10-21T17:49:10Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29806719790"
+    },
     {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
