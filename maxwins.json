@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-22T08:38:29.080855300+00:00",
-  "compte": 135,
+  "misAJour": "2026-10-22T14:29:35.068953600+00:00",
+  "compte": 132,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-22T14:29:23Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29819991009"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1049,38 +1057,6 @@
       "achat": 500.0,
       "date": "2026-09-21T22:49:06Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29320097501"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-21T20:15:11Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013261996728"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1000.0,
-      "date": "2026-09-21T19:59:04Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013261766343"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-21T18:22:27Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013260396052"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-21T18:06:55Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013260189732"
     }
   ]
 }
