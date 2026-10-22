@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-22T15:17:37.668970+00:00",
-  "compte": 133,
+  "misAJour": "2026-10-22T15:33:03.040329700+00:00",
+  "compte": 131,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-10-22T15:32:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013704185191"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
@@ -1041,30 +1049,6 @@
       "achat": 3.0,
       "date": "2026-09-22T23:06:03Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29335644865"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1.0,
-      "date": "2026-09-22T11:40:32Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29326461463"
-    },
-    {
-      "jeu": "Pray For Three",
-      "multiplicateur": 13333.0,
-      "plafond": 13333.0,
-      "achat": 3.0,
-      "date": "2026-09-22T03:18:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29322772850"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-22T02:54:46Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29322595458"
     }
   ]
 }
