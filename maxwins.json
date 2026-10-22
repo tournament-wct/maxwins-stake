@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-22T00:23:22.136843500+00:00",
-  "compte": 140,
+  "misAJour": "2026-10-22T05:43:44.319596100+00:00",
+  "compte": 138,
   "maxwins": [
+    {
+      "jeu": "Donny Dough",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-22T05:43:21Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29815449148"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
@@ -1097,30 +1105,6 @@
       "achat": 300.0,
       "date": "2026-09-20T19:49:43Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29301759924"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-20T18:58:02Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29301007047"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-09-20T16:37:45Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29299096448"
-    },
-    {
-      "jeu": "Le Santa",
-      "multiplicateur": 20000.0,
-      "plafond": 20000.0,
-      "achat": 3.0,
-      "date": "2026-09-20T12:55:11Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29296236283"
     }
   ]
 }
