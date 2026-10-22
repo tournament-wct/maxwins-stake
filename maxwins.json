@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-22T14:29:35.068953600+00:00",
-  "compte": 132,
+  "misAJour": "2026-10-22T15:03:04.871464+00:00",
+  "compte": 133,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-10-22T15:03:02Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013703854691"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
