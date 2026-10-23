@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-23T05:20:15.070447200+00:00",
-  "compte": 165,
+  "misAJour": "2026-10-23T09:27:21.767684800+00:00",
+  "compte": 164,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-23T09:27:10Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29831985142"
+    },
     {
       "jeu": "Coffee Dealer",
       "multiplicateur": 10000.0,
@@ -1305,22 +1313,6 @@
       "achat": 200.0,
       "date": "2026-09-24T10:39:08Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29358157781"
-    },
-    {
-      "jeu": "Unleashed Chaos",
-      "multiplicateur": 30000.0,
-      "plafond": 30000.0,
-      "achat": 5.0,
-      "date": "2026-09-23T06:28:02Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29339864176"
-    },
-    {
-      "jeu": "Densho",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-09-22T23:06:03Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29335644865"
     }
   ]
 }
