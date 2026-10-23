@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-22T18:24:12.695565200+00:00",
-  "compte": 137,
+  "misAJour": "2026-10-23T05:20:15.070447200+00:00",
+  "compte": 165,
   "maxwins": [
+    {
+      "jeu": "Coffee Dealer",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-23T05:19:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29830210465"
+    },
     {
       "jeu": "Le Catcher",
       "multiplicateur": 15000.0,
@@ -9,6 +17,14 @@
       "achat": 500.0,
       "date": "2026-10-22T18:23:59Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29822888500"
+    },
+    {
+      "jeu": "Coffee Dealer",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-22T17:14:31Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29821900101"
     },
     {
       "jeu": "Hot Ross",
@@ -75,6 +91,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29812580804"
     },
     {
+      "jeu": "Coffee Dealer",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-21T20:40:37Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29809235853"
+    },
+    {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
       "plafond": 15000.0,
@@ -115,6 +139,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29801262238"
     },
     {
+      "jeu": "Le Vampire",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-20T11:58:42Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29788593631"
+    },
+    {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
       "plafond": 12500.0,
@@ -131,12 +163,36 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29788464869"
     },
     {
+      "jeu": "Le Vampire",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-20T11:40:26Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29788440386"
+    },
+    {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
       "plafond": 16666.0,
       "achat": 250.0,
       "date": "2026-10-20T08:02:48Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29786786895"
+    },
+    {
+      "jeu": "Coffee Dealer",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-20T07:24:20Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29786503354"
+    },
+    {
+      "jeu": "Coffee Dealer",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-20T03:21:35Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29784964917"
     },
     {
       "jeu": "Le Catcher",
@@ -291,6 +347,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29749225310"
     },
     {
+      "jeu": "Fist of Destruction MegaMultiplier",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 3.0,
+      "date": "2026-10-17T15:59:53Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013637874893"
+    },
+    {
       "jeu": "Le Catcher",
       "multiplicateur": 15000.0,
       "plafond": 15000.0,
@@ -307,6 +371,22 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29738965900"
     },
     {
+      "jeu": "Fist of Destruction MegaMultiplier",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1.0,
+      "date": "2026-10-17T01:42:05Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013630498140"
+    },
+    {
+      "jeu": "The Jade Path Hold & Win",
+      "multiplicateur": 2500.0,
+      "plafond": 2500.0,
+      "achat": 100.0,
+      "date": "2026-10-16T19:50:21Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29732839456"
+    },
+    {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
       "plafond": 10000.0,
@@ -315,12 +395,28 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29725398308"
     },
     {
+      "jeu": "Wicked Grin",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-16T09:50:26Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29724722849"
+    },
+    {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
       "plafond": 12500.0,
       "achat": 200.0,
       "date": "2026-10-16T03:39:10Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013615952869"
+    },
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-16T01:31:03Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29720653407"
     },
     {
       "jeu": "Hand of Anubis",
@@ -379,6 +475,22 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29702897565"
     },
     {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-14T10:42:50Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29693765215"
+    },
+    {
+      "jeu": "Spicy SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 250.0,
+      "date": "2026-10-14T02:12:23Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29689971413"
+    },
+    {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
       "plafond": 15000.0,
@@ -409,6 +521,14 @@
       "achat": 500.0,
       "date": "2026-10-13T09:45:10Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676059061"
+    },
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-13T06:00:14Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29673774609"
     },
     {
       "jeu": "Dork Unit",
@@ -451,12 +571,36 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29660190173"
     },
     {
+      "jeu": "Spicy SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 10.0,
+      "date": "2026-10-11T20:57:55Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29654135922"
+    },
+    {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
       "plafond": 12500.0,
       "achat": 200.0,
       "date": "2026-10-11T07:22:57Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29644727222"
+    },
+    {
+      "jeu": "Demonic Dolls",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 1.0,
+      "date": "2026-10-11T03:08:57Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29642780948"
+    },
+    {
+      "jeu": "Demonic Dolls",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-11T00:09:47Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29640943134"
     },
     {
       "jeu": "Le Fisherman",
@@ -531,12 +675,36 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29607473938"
     },
     {
+      "jeu": "Demonic Dolls",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-10-09T00:44:48Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29606276358"
+    },
+    {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
       "plafond": 15000.0,
       "achat": 500.0,
       "date": "2026-10-08T21:31:07Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29603772084"
+    },
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-08T20:50:25Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29603105686"
+    },
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-08T20:47:45Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29603059194"
     },
     {
       "jeu": "Wanted Dead or a Wild",
@@ -553,6 +721,22 @@
       "achat": 200.0,
       "date": "2026-10-08T19:09:49Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29601405027"
+    },
+    {
+      "jeu": "Dork Show",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-08T15:50:59Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29598419856"
+    },
+    {
+      "jeu": "Spicy SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 10.0,
+      "date": "2026-10-08T12:13:49Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29595744837"
     },
     {
       "jeu": "Wanted Dead or a Wild",
@@ -587,6 +771,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29575798786"
     },
     {
+      "jeu": "Wicked Grin",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-07T03:26:09Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29574872489"
+    },
+    {
       "jeu": "Eternal Duel",
       "multiplicateur": 15000.0,
       "plafond": 15000.0,
@@ -601,6 +793,14 @@
       "achat": 1.0,
       "date": "2026-10-06T05:15:00Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29558892221"
+    },
+    {
+      "jeu": "Dork Show",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-10-06T02:39:15Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29557506128"
     },
     {
       "jeu": "Le Prechaun",
@@ -641,6 +841,14 @@
       "achat": 200.0,
       "date": "2026-10-05T11:20:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29543450437"
+    },
+    {
+      "jeu": "Dork Show",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 1.0,
+      "date": "2026-10-05T09:46:35Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29541502855"
     },
     {
       "jeu": "Le Fisherman",
@@ -691,6 +899,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29535684805"
     },
     {
+      "jeu": "Rage of Egypt",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 1.0,
+      "date": "2026-10-04T16:08:40Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29530052351"
+    },
+    {
       "jeu": "Le Catcher",
       "multiplicateur": 15000.0,
       "plafond": 15000.0,
@@ -713,6 +929,14 @@
       "achat": 250.0,
       "date": "2026-10-04T00:54:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29520951282"
+    },
+    {
+      "jeu": "Fist of Destruction MegaMultiplier",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 275.0,
+      "date": "2026-10-03T14:26:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013430315703"
     },
     {
       "jeu": "Dynasty Of Death",
@@ -843,6 +1067,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29469823651"
     },
     {
+      "jeu": "Wicked Grin",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 50.0,
+      "date": "2026-10-01T02:36:18Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29468287393"
+    },
+    {
       "jeu": "Epic Bullets And Bounty",
       "multiplicateur": 20000.0,
       "plafond": 20000.0,
@@ -923,6 +1155,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29427785088"
     },
     {
+      "jeu": "Unleashed Chaos",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 5.0,
+      "date": "2026-09-28T12:47:01Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29427387883"
+    },
+    {
       "jeu": "Ronin Stackways",
       "multiplicateur": 5000.0,
       "plafond": 5000.0,
@@ -947,6 +1187,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29415545809"
     },
     {
+      "jeu": "Unleashed Chaos",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 5.0,
+      "date": "2026-09-26T21:05:43Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29402418793"
+    },
+    {
       "jeu": "Double Rainbow",
       "multiplicateur": 5000.0,
       "plafond": 5000.0,
@@ -961,6 +1209,14 @@
       "achat": 300.0,
       "date": "2026-09-26T14:57:38Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29395302227"
+    },
+    {
+      "jeu": "Unleashed Chaos",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 5.0,
+      "date": "2026-09-25T22:46:11Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29384329887"
     },
     {
       "jeu": "RIP City",
@@ -1051,52 +1307,20 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29358157781"
     },
     {
+      "jeu": "Unleashed Chaos",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 5.0,
+      "date": "2026-09-23T06:28:02Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29339864176"
+    },
+    {
       "jeu": "Densho",
       "multiplicateur": 10000.0,
       "plafond": 10000.0,
       "achat": 3.0,
       "date": "2026-09-22T23:06:03Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29335644865"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1.0,
-      "date": "2026-09-22T11:40:32Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29326461463"
-    },
-    {
-      "jeu": "Pray For Three",
-      "multiplicateur": 13333.0,
-      "plafond": 13333.0,
-      "achat": 3.0,
-      "date": "2026-09-22T03:18:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29322772850"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-09-22T02:54:46Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29322595458"
-    },
-    {
-      "jeu": "Le King",
-      "multiplicateur": 20000.0,
-      "plafond": 20000.0,
-      "achat": 3.0,
-      "date": "2026-09-22T01:27:27Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29321843576"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-21T22:49:06Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29320097501"
     }
   ]
 }
