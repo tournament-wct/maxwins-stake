@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-23T20:30:17.983617900+00:00",
-  "compte": 166,
+  "misAJour": "2026-10-23T23:47:57.917325900+00:00",
+  "compte": 168,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-10-23T23:47:43Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29842947209"
+    },
     {
       "jeu": "Ze Zeus",
       "multiplicateur": 10000.0,
@@ -1329,6 +1337,14 @@
       "achat": 1000.0,
       "date": "2026-09-24T14:10:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013299097921"
+    },
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-09-24T10:39:08Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29358157781"
     }
   ]
 }
