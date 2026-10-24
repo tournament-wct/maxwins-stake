@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-24T15:42:59.829425100+00:00",
-  "compte": 161,
+  "misAJour": "2026-10-24T15:50:54.029704200+00:00",
+  "compte": 162,
   "maxwins": [
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-24T15:50:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29851972085"
+    },
     {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
