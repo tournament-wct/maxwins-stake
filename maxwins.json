@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-24T15:00:07.061221700+00:00",
-  "compte": 160,
+  "misAJour": "2026-10-24T15:42:59.829425100+00:00",
+  "compte": 161,
   "maxwins": [
+    {
+      "jeu": "Slayers Inc",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 100.0,
+      "date": "2026-10-24T15:42:43Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29851851517"
+    },
     {
       "jeu": "Spicy SixSixSix",
       "multiplicateur": 16666.0,
