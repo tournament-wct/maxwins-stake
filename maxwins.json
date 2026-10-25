@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-24T15:50:54.029704200+00:00",
-  "compte": 162,
+  "misAJour": "2026-10-25T04:24:56.320907300+00:00",
+  "compte": 163,
   "maxwins": [
+    {
+      "jeu": "Hand of Anubis",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 129.0,
+      "date": "2026-10-25T04:24:53Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013740696676"
+    },
     {
       "jeu": "Wanted Salvation",
       "multiplicateur": 12500.0,
