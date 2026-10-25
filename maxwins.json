@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-25T04:24:56.320907300+00:00",
-  "compte": 163,
+  "misAJour": "2026-10-25T13:27:32.929442300+00:00",
+  "compte": 164,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-25T13:27:19Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29865183592"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
