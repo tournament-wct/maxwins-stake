@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-27T23:31:27.635681200+00:00",
-  "compte": 171,
+  "misAJour": "2026-10-27T23:53:58.726662600+00:00",
+  "compte": 170,
   "maxwins": [
+    {
+      "jeu": "Hand of Anubis",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 1.0,
+      "date": "2026-10-27T23:53:31Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29900716662"
+    },
     {
       "jeu": "Le Prechaun",
       "multiplicateur": 15000.0,
@@ -1353,22 +1361,6 @@
       "achat": 500.0,
       "date": "2026-09-28T22:41:21Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013359194389"
-    },
-    {
-      "jeu": "Benny the Beer",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 75.0,
-      "date": "2026-09-28T13:18:06Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29427785088"
-    },
-    {
-      "jeu": "Unleashed Chaos",
-      "multiplicateur": 30000.0,
-      "plafond": 30000.0,
-      "achat": 5.0,
-      "date": "2026-09-28T12:47:01Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29427387883"
     }
   ]
 }
