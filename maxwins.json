@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-27T15:18:49.032921900+00:00",
-  "compte": 172,
+  "misAJour": "2026-10-27T18:43:58.313686+00:00",
+  "compte": 173,
   "maxwins": [
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-27T18:43:54Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29896376864"
+    },
     {
       "jeu": "Evil Eyes",
       "multiplicateur": 12500.0,
