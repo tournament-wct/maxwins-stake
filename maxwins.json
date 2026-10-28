@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-28T15:43:55.553806900+00:00",
+  "misAJour": "2026-10-28T17:12:16.470161500+00:00",
   "compte": 174,
   "maxwins": [
+    {
+      "jeu": "Cloud Princess",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-28T17:11:51Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29910673161"
+    },
     {
       "jeu": "Fist Of Destruction",
       "multiplicateur": 10000.0,
@@ -1385,14 +1393,6 @@
       "achat": 250.0,
       "date": "2026-09-29T06:26:17Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29439605403"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-28T22:41:21Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013359194389"
     }
   ]
 }
