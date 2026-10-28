@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-28T10:05:37.055456400+00:00",
-  "compte": 171,
+  "misAJour": "2026-10-28T14:51:00.426989200+00:00",
+  "compte": 172,
   "maxwins": [
+    {
+      "jeu": "Rage of Egypt",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 129.0,
+      "date": "2026-10-28T14:50:47Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29908745790"
+    },
     {
       "jeu": "Fist of Destruction MegaMultiplier",
       "multiplicateur": 15000.0,
