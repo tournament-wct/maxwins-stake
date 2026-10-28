@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-28T17:12:16.470161500+00:00",
-  "compte": 174,
+  "misAJour": "2026-10-28T19:36:02.192041500+00:00",
+  "compte": 176,
   "maxwins": [
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-28T19:35:53Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29912848944"
+    },
     {
       "jeu": "Cloud Princess",
       "multiplicateur": 10000.0,
@@ -1393,6 +1401,14 @@
       "achat": 250.0,
       "date": "2026-09-29T06:26:17Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29439605403"
+    },
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-28T22:41:21Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013359194389"
     }
   ]
 }
