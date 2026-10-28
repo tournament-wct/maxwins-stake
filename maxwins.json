@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-28T15:09:46.209756100+00:00",
-  "compte": 173,
+  "misAJour": "2026-10-28T15:43:55.553806900+00:00",
+  "compte": 174,
   "maxwins": [
+    {
+      "jeu": "Fist Of Destruction",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 150.0,
+      "date": "2026-10-28T15:43:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29909463202"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
