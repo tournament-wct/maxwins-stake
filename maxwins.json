@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-29T06:54:45.829750500+00:00",
+  "misAJour": "2026-10-29T10:47:42.511833300+00:00",
   "compte": 177,
   "maxwins": [
+    {
+      "jeu": "Wanted Salvation",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-29T10:47:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29921704968"
+    },
     {
       "jeu": "Rotten",
       "multiplicateur": 10000.0,
@@ -1409,14 +1417,6 @@
       "achat": 250.0,
       "date": "2026-09-29T06:26:17Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29439605403"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-09-28T22:41:21Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013359194389"
     }
   ]
 }
