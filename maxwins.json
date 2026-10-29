@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-28T19:36:02.192041500+00:00",
-  "compte": 176,
+  "misAJour": "2026-10-29T06:54:45.829750500+00:00",
+  "compte": 177,
   "maxwins": [
+    {
+      "jeu": "Rotten",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-10-29T06:54:21Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29920020004"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
