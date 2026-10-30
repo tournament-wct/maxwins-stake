@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-30T13:27:24.864068100+00:00",
+  "misAJour": "2026-10-30T15:24:55.921715100+00:00",
   "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 1.0,
+      "date": "2026-10-30T15:24:36Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29940731147"
+    },
     {
       "jeu": "Stormforged",
       "multiplicateur": 12500.0,
@@ -1449,14 +1457,6 @@
       "achat": 250.0,
       "date": "2026-09-30T15:12:30Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29459039501"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-09-30T05:42:23Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29453753937"
     }
   ]
 }
