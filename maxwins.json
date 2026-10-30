@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-30T08:33:16.127553700+00:00",
-  "compte": 181,
+  "misAJour": "2026-10-30T13:27:24.864068100+00:00",
+  "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Stormforged",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 3.0,
+      "date": "2026-10-30T13:27:22Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29939253919"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
