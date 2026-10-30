@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-30T15:51:12.539944300+00:00",
-  "compte": 178,
+  "misAJour": "2026-10-30T21:01:35.961461800+00:00",
+  "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Duel At Dawn",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-10-30T21:01:26Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29946296235"
+    },
     {
       "jeu": "Wanted Salvation",
       "multiplicateur": 12500.0,
@@ -1425,6 +1433,30 @@
       "achat": 50.0,
       "date": "2026-10-01T02:36:18Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29468287393"
+    },
+    {
+      "jeu": "Epic Bullets And Bounty",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 200.0,
+      "date": "2026-09-30T23:41:11Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013387416330"
+    },
+    {
+      "jeu": "Le Rapper",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-09-30T22:02:53Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29465101133"
+    },
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-09-30T21:21:01Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29464428458"
     }
   ]
 }
