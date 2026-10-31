@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-31T15:47:03.181182700+00:00",
-  "compte": 180,
+  "misAJour": "2026-10-31T18:43:42.640819800+00:00",
+  "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Chaos Crew 2",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 1.0,
+      "date": "2026-10-31T18:43:28Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29962072210"
+    },
     {
       "jeu": "Le Cowboy",
       "multiplicateur": 25000.0,
@@ -1441,6 +1449,14 @@
       "achat": 150.0,
       "date": "2026-10-01T15:32:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013396509428"
+    },
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-01T06:08:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29469823651"
     }
   ]
 }
