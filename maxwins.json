@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-10-31T11:34:32.807884100+00:00",
-  "compte": 181,
+  "misAJour": "2026-10-31T15:47:03.181182700+00:00",
+  "compte": 180,
   "maxwins": [
+    {
+      "jeu": "Le Cowboy",
+      "multiplicateur": 25000.0,
+      "plafond": 25000.0,
+      "achat": 75.0,
+      "date": "2026-10-31T15:46:46Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29959583529"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
@@ -1433,22 +1441,6 @@
       "achat": 150.0,
       "date": "2026-10-01T15:32:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013396509428"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-01T06:08:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29469823651"
-    },
-    {
-      "jeu": "Wicked Grin",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 50.0,
-      "date": "2026-10-01T02:36:18Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29468287393"
     }
   ]
 }
