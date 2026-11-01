@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-01T12:59:55.444730700+00:00",
+  "misAJour": "2026-11-01T13:06:38.081282900+00:00",
   "compte": 180,
   "maxwins": [
+    {
+      "jeu": "Fist Of Destruction",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 150.0,
+      "date": "2026-11-01T13:06:19Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29974273384"
+    },
     {
       "jeu": "Fist of Destruction MegaMultiplier",
       "multiplicateur": 15000.0,
@@ -1433,14 +1441,6 @@
       "achat": 200.0,
       "date": "2026-10-02T13:08:51Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29491379860"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 1.0,
-      "date": "2026-10-02T11:42:05Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29490362923"
     }
   ]
 }
