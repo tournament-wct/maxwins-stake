@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-01T20:28:41.861198700+00:00",
-  "compte": 179,
+  "misAJour": "2026-11-01T20:46:10.508188800+00:00",
+  "compte": 180,
   "maxwins": [
+    {
+      "jeu": "Densho",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-11-01T20:46:00Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29980297257"
+    },
     {
       "jeu": "Le Pharaoh",
       "multiplicateur": 15000.0,
