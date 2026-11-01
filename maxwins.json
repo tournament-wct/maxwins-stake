@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-01T13:06:38.081282900+00:00",
-  "compte": 180,
+  "misAJour": "2026-11-01T16:40:21.161633300+00:00",
+  "compte": 177,
   "maxwins": [
+    {
+      "jeu": "Duel At Dawn",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-11-01T16:40:11Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29976709652"
+    },
     {
       "jeu": "Fist Of Destruction",
       "multiplicateur": 10000.0,
@@ -1409,38 +1417,6 @@
       "achat": 200.0,
       "date": "2026-10-02T19:58:32Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29497683213"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-10-02T14:15:57Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013413033270"
-    },
-    {
-      "jeu": "Le Rapper",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-10-02T14:12:16Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29492180668"
-    },
-    {
-      "jeu": "The Count",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 300.0,
-      "date": "2026-10-02T13:40:26Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29491763944"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-02T13:08:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29491379860"
     }
   ]
 }
