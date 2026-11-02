@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-02T11:29:32.344385800+00:00",
-  "compte": 178,
+  "misAJour": "2026-11-02T18:11:56.603676200+00:00",
+  "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-11-02T18:11:55Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013858201027"
+    },
     {
       "jeu": "3 Adventures of Alice Hold & Win",
       "multiplicateur": 2500.0,
@@ -1425,6 +1433,30 @@
       "achat": 500.0,
       "date": "2026-10-04T15:20:35Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29529459880"
+    },
+    {
+      "jeu": "SixSixSix",
+      "multiplicateur": 16666.0,
+      "plafond": 16666.0,
+      "achat": 10.0,
+      "date": "2026-10-04T03:29:37Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29522641317"
+    },
+    {
+      "jeu": "Le Pharaoh",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-10-04T00:54:39Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29520951282"
+    },
+    {
+      "jeu": "Fist of Destruction MegaMultiplier",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 275.0,
+      "date": "2026-10-03T14:26:38Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013430315703"
     }
   ]
 }
