@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-02T07:54:05.693264700+00:00",
+  "misAJour": "2026-11-02T11:29:32.344385800+00:00",
   "compte": 178,
   "maxwins": [
+    {
+      "jeu": "3 Adventures of Alice Hold & Win",
+      "multiplicateur": 2500.0,
+      "plafond": 2500.0,
+      "achat": 200.0,
+      "date": "2026-11-02T11:29:20Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29988311903"
+    },
     {
       "jeu": "Donny Dough",
       "multiplicateur": 10000.0,
@@ -1417,14 +1425,6 @@
       "achat": 500.0,
       "date": "2026-10-04T15:20:35Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29529459880"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 10.0,
-      "date": "2026-10-04T03:29:37Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29522641317"
     }
   ]
 }
