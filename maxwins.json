@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-02T18:11:56.603676200+00:00",
+  "misAJour": "2026-11-02T19:12:37.351771900+00:00",
   "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Le Vampire",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-11-02T19:12:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29994328811"
+    },
     {
       "jeu": "Hot Ross",
       "multiplicateur": 15000.0,
@@ -1449,14 +1457,6 @@
       "achat": 250.0,
       "date": "2026-10-04T00:54:39Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29520951282"
-    },
-    {
-      "jeu": "Fist of Destruction MegaMultiplier",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 275.0,
-      "date": "2026-10-03T14:26:38Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013430315703"
     }
   ]
 }
