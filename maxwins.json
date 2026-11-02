@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-02T19:12:37.351771900+00:00",
+  "misAJour": "2026-11-02T21:42:34.903353800+00:00",
   "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-11-02T21:42:26Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29996884186"
+    },
     {
       "jeu": "Le Vampire",
       "multiplicateur": 15000.0,
@@ -1449,14 +1457,6 @@
       "achat": 10.0,
       "date": "2026-10-04T03:29:37Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29522641317"
-    },
-    {
-      "jeu": "Le Pharaoh",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-10-04T00:54:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29520951282"
     }
   ]
 }
