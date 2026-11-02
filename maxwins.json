@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-02T03:47:51.617993900+00:00",
-  "compte": 180,
+  "misAJour": "2026-11-02T07:54:05.693264700+00:00",
+  "compte": 178,
   "maxwins": [
+    {
+      "jeu": "Donny Dough",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-11-02T07:54:00Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29986675293"
+    },
     {
       "jeu": "Unleashed Chaos",
       "multiplicateur": 30000.0,
@@ -1417,30 +1425,6 @@
       "achat": 10.0,
       "date": "2026-10-04T03:29:37Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29522641317"
-    },
-    {
-      "jeu": "Le Pharaoh",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-10-04T00:54:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29520951282"
-    },
-    {
-      "jeu": "Fist of Destruction MegaMultiplier",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 275.0,
-      "date": "2026-10-03T14:26:38Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013430315703"
-    },
-    {
-      "jeu": "Dynasty Of Death",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 5.0,
-      "date": "2026-10-03T12:57:22Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013429279899"
     }
   ]
 }
