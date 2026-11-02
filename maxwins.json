@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-01T22:11:35.097442700+00:00",
+  "misAJour": "2026-11-02T03:47:51.617993900+00:00",
   "compte": 180,
   "maxwins": [
+    {
+      "jeu": "Unleashed Chaos",
+      "multiplicateur": 30000.0,
+      "plafond": 30000.0,
+      "achat": 5.0,
+      "date": "2026-11-02T03:47:47Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29985043533"
+    },
     {
       "jeu": "SixSixSix",
       "multiplicateur": 16666.0,
@@ -1433,14 +1441,6 @@
       "achat": 5.0,
       "date": "2026-10-03T12:57:22Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013429279899"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-10-03T01:35:37Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013422922039"
     }
   ]
 }
