@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-03T06:17:39.915740+00:00",
-  "compte": 177,
+  "misAJour": "2026-11-03T20:36:05.719080700+00:00",
+  "compte": 169,
   "maxwins": [
+    {
+      "jeu": "Le Fisherman",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-11-03T20:36:02Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013874606430"
+    },
     {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
@@ -1345,78 +1353,6 @@
       "achat": 1.0,
       "date": "2026-10-06T05:15:00Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29558892221"
-    },
-    {
-      "jeu": "Dork Show",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-10-06T02:39:15Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29557506128"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 250.0,
-      "date": "2026-10-05T20:56:52Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29552750632"
-    },
-    {
-      "jeu": "Le Rapper",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-10-05T20:48:05Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29552613145"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-05T19:42:36Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29551317394"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 3.0,
-      "date": "2026-10-05T15:31:46Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29546924641"
-    },
-    {
-      "jeu": "Cloud Princess",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 200.0,
-      "date": "2026-10-05T11:20:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29543450437"
-    },
-    {
-      "jeu": "Dork Show",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 1.0,
-      "date": "2026-10-05T09:46:35Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29541502855"
-    },
-    {
-      "jeu": "Le Fisherman",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-05T05:48:04Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29539860270"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-05T04:58:48Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013454628892"
     }
   ]
 }
