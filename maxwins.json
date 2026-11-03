@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-02T21:42:34.903353800+00:00",
+  "misAJour": "2026-11-03T05:28:00.574829300+00:00",
   "compte": 182,
   "maxwins": [
+    {
+      "jeu": "Jaws Of Justice",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-11-03T05:27:58Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30001823882"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1449,14 +1457,6 @@
       "achat": 500.0,
       "date": "2026-10-04T15:20:35Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29529459880"
-    },
-    {
-      "jeu": "SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 10.0,
-      "date": "2026-10-04T03:29:37Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29522641317"
     }
   ]
 }
