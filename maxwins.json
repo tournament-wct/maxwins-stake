@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-03T20:36:05.719080700+00:00",
-  "compte": 169,
+  "misAJour": "2026-11-03T20:46:07.553135900+00:00",
+  "compte": 170,
   "maxwins": [
+    {
+      "jeu": "Fist Of Destruction",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 3.0,
+      "date": "2026-11-03T20:45:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30011607044"
+    },
     {
       "jeu": "Le Fisherman",
       "multiplicateur": 15000.0,
