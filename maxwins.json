@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-03T23:18:25.338683500+00:00",
-  "compte": 182,
+  "misAJour": "2026-11-04T04:45:31.599262300+00:00",
+  "compte": 179,
   "maxwins": [
+    {
+      "jeu": "Miami Mayhem",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 100.0,
+      "date": "2026-11-04T04:45:15Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30017222005"
+    },
     {
       "jeu": "Coffee Dealer",
       "multiplicateur": 10000.0,
@@ -1425,38 +1433,6 @@
       "achat": 1.0,
       "date": "2026-10-05T09:46:35Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29541502855"
-    },
-    {
-      "jeu": "Le Fisherman",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-05T05:48:04Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29539860270"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-05T04:58:48Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013454628892"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-05T02:30:19Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29538278245"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-10-05T01:24:30Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29537681263"
     }
   ]
 }
