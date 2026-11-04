@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-04T04:45:31.599262300+00:00",
-  "compte": 179,
+  "misAJour": "2026-11-04T06:22:04.203013400+00:00",
+  "compte": 175,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-11-04T06:22:02Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013880099171"
+    },
     {
       "jeu": "Miami Mayhem",
       "multiplicateur": 15000.0,
@@ -1393,46 +1401,6 @@
       "achat": 250.0,
       "date": "2026-10-05T20:56:52Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29552750632"
-    },
-    {
-      "jeu": "Le Rapper",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-10-05T20:48:05Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29552613145"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-05T19:42:36Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29551317394"
-    },
-    {
-      "jeu": "Hot Ross",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 3.0,
-      "date": "2026-10-05T15:31:46Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29546924641"
-    },
-    {
-      "jeu": "Cloud Princess",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 200.0,
-      "date": "2026-10-05T11:20:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29543450437"
-    },
-    {
-      "jeu": "Dork Show",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 1.0,
-      "date": "2026-10-05T09:46:35Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29541502855"
     }
   ]
 }
