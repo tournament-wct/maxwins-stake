@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-06T17:15:15.977184+00:00",
-  "compte": 182,
+  "misAJour": "2026-11-06T20:12:19.546931100+00:00",
+  "compte": 183,
   "maxwins": [
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 250.0,
+      "date": "2026-11-06T20:11:56Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30059709668"
+    },
     {
       "jeu": "Hot Ross",
       "multiplicateur": 15000.0,
