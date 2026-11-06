@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-06T06:50:36.804006900+00:00",
-  "compte": 182,
+  "misAJour": "2026-11-06T07:14:55.846316500+00:00",
+  "compte": 183,
   "maxwins": [
+    {
+      "jeu": "Le King",
+      "multiplicateur": 20000.0,
+      "plafond": 20000.0,
+      "achat": 250.0,
+      "date": "2026-11-06T07:14:54Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013910313372"
+    },
     {
       "jeu": "Slayers Inc",
       "multiplicateur": 15000.0,
