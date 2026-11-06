@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-06T02:13:07.600316400+00:00",
-  "compte": 178,
+  "misAJour": "2026-11-06T03:08:07.506871700+00:00",
+  "compte": 179,
   "maxwins": [
+    {
+      "jeu": "Duel At Dawn",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 200.0,
+      "date": "2026-11-06T03:08:05Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013908466710"
+    },
     {
       "jeu": "Le Catcher",
       "multiplicateur": 15000.0,
