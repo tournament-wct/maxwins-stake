@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-06T03:08:07.506871700+00:00",
+  "misAJour": "2026-11-06T04:46:03.989250900+00:00",
   "compte": 179,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-11-06T04:45:44Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30049672535"
+    },
     {
       "jeu": "Duel At Dawn",
       "multiplicateur": 15000.0,
@@ -1425,14 +1433,6 @@
       "achat": 200.0,
       "date": "2026-10-08T10:03:32Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29594460663"
-    },
-    {
-      "jeu": "Duel At Dawn",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 200.0,
-      "date": "2026-10-07T20:01:00Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29585743881"
     }
   ]
 }
