@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-07T00:02:17.952222400+00:00",
-  "compte": 185,
+  "misAJour": "2026-11-07T14:52:03.987976200+00:00",
+  "compte": 178,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 1.0,
+      "date": "2026-11-07T14:51:45Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30071945757"
+    },
     {
       "jeu": "Duel At Dawn",
       "multiplicateur": 15000.0,
@@ -1417,70 +1425,6 @@
       "achat": 250.0,
       "date": "2026-10-09T00:44:48Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29606276358"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-08T21:31:07Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29603772084"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-08T20:50:25Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29603105686"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-08T20:47:45Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29603059194"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 1.0,
-      "date": "2026-10-08T20:21:37Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29602591015"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-08T19:09:49Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29601405027"
-    },
-    {
-      "jeu": "Dork Show",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 200.0,
-      "date": "2026-10-08T15:50:59Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29598419856"
-    },
-    {
-      "jeu": "Spicy SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 10.0,
-      "date": "2026-10-08T12:13:49Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29595744837"
-    },
-    {
-      "jeu": "Wanted Dead or a Wild",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-08T10:03:32Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29594460663"
     }
   ]
 }
