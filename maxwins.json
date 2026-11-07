@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-06T21:08:59.261277300+00:00",
-  "compte": 183,
+  "misAJour": "2026-11-07T00:02:17.952222400+00:00",
+  "compte": 185,
   "maxwins": [
+    {
+      "jeu": "Duel At Dawn",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 3.0,
+      "date": "2026-11-07T00:02:05Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30063328187"
+    },
     {
       "jeu": "Hand of Anubis",
       "multiplicateur": 10000.0,
@@ -1465,6 +1473,14 @@
       "achat": 10.0,
       "date": "2026-10-08T12:13:49Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29595744837"
+    },
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-08T10:03:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29594460663"
     }
   ]
 }
