@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-07T14:52:03.987976200+00:00",
-  "compte": 178,
+  "misAJour": "2026-11-10T12:45:49.241715200+00:00",
+  "compte": 179,
   "maxwins": [
+    {
+      "jeu": "Rage of Egypt",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-11-10T12:45:28Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30114259871"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -233,6 +241,14 @@
       "achat": 1000.0,
       "date": "2026-11-02T18:11:55Z",
       "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013858201027"
+    },
+    {
+      "jeu": "Le Outlaw",
+      "multiplicateur": 25000.0,
+      "plafond": 25000.0,
+      "achat": 250.0,
+      "date": "2026-11-02T13:59:48Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29989894752"
     },
     {
       "jeu": "3 Adventures of Alice Hold & Win",
@@ -1355,6 +1371,14 @@
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29638795263"
     },
     {
+      "jeu": "Itero",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-10-10T16:10:12Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29633350943"
+    },
+    {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
       "plafond": 12500.0,
@@ -1409,22 +1433,6 @@
       "achat": 250.0,
       "date": "2026-10-09T18:37:58Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29617482157"
-    },
-    {
-      "jeu": "Drop 'Em",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 1.0,
-      "date": "2026-10-09T02:51:51Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29607473938"
-    },
-    {
-      "jeu": "Demonic Dolls",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-10-09T00:44:48Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29606276358"
     }
   ]
 }
