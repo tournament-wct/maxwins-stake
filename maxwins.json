@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-17T02:35:50.568030+00:00",
-  "compte": 170,
+  "misAJour": "2026-11-19T14:43:28.922951700+00:00",
+  "compte": 173,
   "maxwins": [
+    {
+      "jeu": "Ghost Vision",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 2.0,
+      "date": "2026-11-19T14:43:25Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30247083111"
+    },
     {
       "jeu": "Le King",
       "multiplicateur": 20000.0,
@@ -1361,6 +1369,22 @@
       "achat": 300.0,
       "date": "2026-10-12T19:59:38Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29668053162"
+    },
+    {
+      "jeu": "Le Bandit",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 250.0,
+      "date": "2026-10-12T07:52:08Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29660336705"
+    },
+    {
+      "jeu": "Hand of Anubis",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 129.0,
+      "date": "2026-10-12T07:32:42Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29660190173"
     }
   ]
 }
