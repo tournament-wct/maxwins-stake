@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-21T01:21:20.816881800+00:00",
-  "compte": 164,
+  "misAJour": "2026-11-21T01:57:27.451647700+00:00",
+  "compte": 163,
   "maxwins": [
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-11-21T01:57:22Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30270505263"
+    },
     {
       "jeu": "Ghost Vision",
       "multiplicateur": 10000.0,
@@ -1297,22 +1305,6 @@
       "achat": 500.0,
       "date": "2026-10-14T22:44:52Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29702897565"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-14T10:42:50Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29693765215"
-    },
-    {
-      "jeu": "Spicy SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 250.0,
-      "date": "2026-10-14T02:12:23Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29689971413"
     }
   ]
 }
