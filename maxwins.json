@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-19T14:43:28.922951700+00:00",
-  "compte": 173,
+  "misAJour": "2026-11-21T01:21:20.816881800+00:00",
+  "compte": 164,
   "maxwins": [
+    {
+      "jeu": "Ghost Vision",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-11-21T01:21:18Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12014119754010"
+    },
     {
       "jeu": "Ghost Vision",
       "multiplicateur": 10000.0,
@@ -1305,86 +1313,6 @@
       "achat": 250.0,
       "date": "2026-10-14T02:12:23Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29689971413"
-    },
-    {
-      "jeu": "Slayers Inc",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 1.0,
-      "date": "2026-10-13T12:16:19Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013576123124"
-    },
-    {
-      "jeu": "Le Catcher",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-13T10:47:10Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676929139"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-13T10:40:46Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676835297"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-13T09:45:10Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676059061"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-13T06:00:14Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29673774609"
-    },
-    {
-      "jeu": "Dork Unit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-10-13T05:49:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013572922103"
-    },
-    {
-      "jeu": "Life And Death",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 200.0,
-      "date": "2026-10-12T22:29:31Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29670270348"
-    },
-    {
-      "jeu": "The Count",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 300.0,
-      "date": "2026-10-12T19:59:38Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29668053162"
-    },
-    {
-      "jeu": "Le Bandit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 250.0,
-      "date": "2026-10-12T07:52:08Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29660336705"
-    },
-    {
-      "jeu": "Hand of Anubis",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 129.0,
-      "date": "2026-10-12T07:32:42Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29660190173"
     }
   ]
 }
