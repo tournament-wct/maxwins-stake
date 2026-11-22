@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-22T05:46:41.670893+00:00",
-  "compte": 174,
+  "misAJour": "2026-11-22T12:29:05.087343400+00:00",
+  "compte": 172,
   "maxwins": [
+    {
+      "jeu": "Beast Below",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 1.0,
+      "date": "2026-11-22T12:29:02Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30290038964"
+    },
     {
       "jeu": "Wanted Dead or a Wild",
       "multiplicateur": 12500.0,
@@ -1369,30 +1377,6 @@
       "achat": 500.0,
       "date": "2026-10-13T10:47:10Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676929139"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-13T10:40:46Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676835297"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-13T09:45:10Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676059061"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-13T06:00:14Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29673774609"
     }
   ]
 }
