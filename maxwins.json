@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-22T02:57:00.486593+00:00",
-  "compte": 172,
+  "misAJour": "2026-11-22T03:20:20.991723400+00:00",
+  "compte": 171,
   "maxwins": [
+    {
+      "jeu": "Rage of Egypt",
+      "multiplicateur": 10000.0,
+      "plafond": 10000.0,
+      "achat": 200.0,
+      "date": "2026-11-22T03:19:59Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30286263086"
+    },
     {
       "jeu": "Le Bandit",
       "multiplicateur": 10000.0,
@@ -1361,22 +1369,6 @@
       "achat": 500.0,
       "date": "2026-10-13T09:45:10Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29676059061"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-13T06:00:14Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29673774609"
-    },
-    {
-      "jeu": "Dork Unit",
-      "multiplicateur": 10000.0,
-      "plafond": 10000.0,
-      "achat": 3.0,
-      "date": "2026-10-13T05:49:39Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12013572922103"
     }
   ]
 }
