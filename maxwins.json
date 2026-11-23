@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-23T14:28:44.412236500+00:00",
-  "compte": 171,
+  "misAJour": "2026-11-23T18:56:04.332413800+00:00",
+  "compte": 169,
   "maxwins": [
+    {
+      "jeu": "Hot Ross",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 1000.0,
+      "date": "2026-11-23T18:56:01Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12014151328829"
+    },
     {
       "jeu": "Le Catcher",
       "multiplicateur": 15000.0,
@@ -1345,30 +1353,6 @@
       "achat": 200.0,
       "date": "2026-10-15T12:36:54Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29710071918"
-    },
-    {
-      "jeu": "Le Prechaun",
-      "multiplicateur": 15000.0,
-      "plafond": 15000.0,
-      "achat": 500.0,
-      "date": "2026-10-14T22:44:52Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29702897565"
-    },
-    {
-      "jeu": "Wanted Salvation",
-      "multiplicateur": 12500.0,
-      "plafond": 12500.0,
-      "achat": 200.0,
-      "date": "2026-10-14T10:42:50Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29693765215"
-    },
-    {
-      "jeu": "Spicy SixSixSix",
-      "multiplicateur": 16666.0,
-      "plafond": 16666.0,
-      "achat": 250.0,
-      "date": "2026-10-14T02:12:23Z",
-      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29689971413"
     }
   ]
 }
