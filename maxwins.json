@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-23T19:28:10.116275500+00:00",
-  "compte": 169,
+  "misAJour": "2026-11-23T19:34:35.913004600+00:00",
+  "compte": 170,
   "maxwins": [
+    {
+      "jeu": "Le Vampire",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-11-23T19:34:32Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=shuffle_casino&roundid=12014151734104"
+    },
     {
       "jeu": "Eternal Duel",
       "multiplicateur": 15000.0,
