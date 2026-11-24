@@ -1,7 +1,15 @@
 {
-  "misAJour": "2026-11-23T19:34:35.913004600+00:00",
-  "compte": 170,
+  "misAJour": "2026-11-24T07:34:58.217255900+00:00",
+  "compte": 174,
   "maxwins": [
+    {
+      "jeu": "Evil Eyes",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 3.0,
+      "date": "2026-11-24T07:34:52Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=30313940070"
+    },
     {
       "jeu": "Le Vampire",
       "multiplicateur": 15000.0,
@@ -1361,6 +1369,30 @@
       "achat": 250.0,
       "date": "2026-10-15T17:27:59Z",
       "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29713725813"
+    },
+    {
+      "jeu": "Pray For Three",
+      "multiplicateur": 13333.0,
+      "plafond": 13333.0,
+      "achat": 225.0,
+      "date": "2026-10-15T15:25:49Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29712159477"
+    },
+    {
+      "jeu": "Wanted Dead or a Wild",
+      "multiplicateur": 12500.0,
+      "plafond": 12500.0,
+      "achat": 200.0,
+      "date": "2026-10-15T12:36:54Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29710071918"
+    },
+    {
+      "jeu": "Le Prechaun",
+      "multiplicateur": 15000.0,
+      "plafond": 15000.0,
+      "achat": 500.0,
+      "date": "2026-10-14T22:44:52Z",
+      "replay": "https://replay.hacksawgaming.com/?partner=stake&roundid=29702897565"
     }
   ]
 }
